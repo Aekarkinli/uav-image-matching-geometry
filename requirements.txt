@@ -1,0 +1,16 @@
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.10.9
+rasterio==1.5.0
+pyproj==3.7.2
+pillow==12.2.0
+h5py==3.16.0
+opencv-python-headless==5.0.0.93
+pycolmap==4.0.4
+torch==2.12.0  # the CUDA 12.6 build was used
+kornia==0.8.3
+# LightGlue and Hierarchical-Localization are installed from their repositories:
+#   pip install git+https://github.com/cvg/LightGlue.git
+#   pip install git+https://github.com/cvg/Hierarchical-Localization.git
+# scripts/odm/run_odm.py runs OpenDroneMap 3.6.2 from its Docker image
+# (opendronemap/odm, or opendronemap/odm:gpu with a CUDA device).
