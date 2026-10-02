@@ -1,0 +1,33 @@
+{
+  "D1_154_building": {
+    "aggregation_block": 4,
+    "common_cells": 130970,
+    "median_by_configuration": {
+      "aliked-lightglue-r2048-k8192": 5.0,
+      "disk-lightglue-r2048-k8192": 5.0,
+      "doghardnet-lightglue-r2048-k8192": 4.0,
+      "loftr-dense-r1024-kall": 2.0,
+      "rootsift-lightglue-r2048-k8192": 4.0,
+      "superpoint-lightglue-r1024-k8192": 4.0,
+      "superpoint-lightglue-r2048-k8192": 4.0
+    },
+    "median_per_configuration": 4.0,
+    "median_of_the_thinnest_configuration": 2.0,
+    "median_of_the_per_cell_minimum": 1.0
+  },
+  "D2_111_nadir": {
+    "aggregation_block": 4,
+    "common_cells": 258802,
+    "median_by_configuration": {
+      "aliked-lightglue-r2048-k8192": 2.0,
+      "disk-lightglue-r2048-k8192": 2.0,
+      "doghardnet-lightglue-r2048-k8192": 2.0,
+      "loftr-dense-r1024-kall": 2.0,
+      "rootsift-lightglue-r2048-k8192": 2.0,
+      "superpoint-lightglue-r2048-k8192": 2.0
+    },
+    "median_per_configuration": 2.0,
+    "median_of_the_thinnest_configuration": 2.0,
+    "median_of_the_per_cell_minimum": 1.0
+  }
+}

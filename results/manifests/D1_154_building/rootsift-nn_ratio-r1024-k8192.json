@@ -1,0 +1,35 @@
+{
+  "config": "rootsift-nn_ratio-r1024-k8192",
+  "dataset": "D1_154_building",
+  "front_end": "rootsift",
+  "matcher": "nn_ratio",
+  "working_resolution": 1024,
+  "keypoint_budget": 8192,
+  "ratio_threshold": 0.8,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1937,
+  "extraction": {
+    "reused": true
+  },
+  "matching_seconds_total": 69.55658289999701,
+  "matching_seconds_per_pair_median": 0.024631899999803863,
+  "matching_peak_gpu_mb": 207.8740234375,
+  "median_verified_inliers": 892.0,
+  "mean_verified_inliers": 1066.5673722250904,
+  "failed_pair_fraction": 0.05317501290655653,
+  "features_path": "workspace/features/D1_154_building/rootsift-r1024-k8192.h5",
+  "matches_path": "workspace/matches/D1_154_building/rootsift-nn_ratio-r1024-k8192.h5",
+  "metrics_path": "results/pairwise/D1_154_building/rootsift-nn_ratio-r1024-k8192.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

@@ -1,0 +1,12 @@
+{
+  "largest_seed_range_m": 0.003877371525224785,
+  "reported_limit_m": 0.004,
+  "seeds_per_group": 5,
+  "largest_seed_range": {
+    "similarity_held_out_rmse_m": 0.003877371525224785,
+    "similarity_in_sample_rmse_m": 0.003746933252401989,
+    "similarity_in_sample_median_m": 0.003082301021815663,
+    "relative_rotation_error_deg": 0.0008562670883626184,
+    "against_kinematic_rmse_m": 0.00598037779462518
+  }
+}

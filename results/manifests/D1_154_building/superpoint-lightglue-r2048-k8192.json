@@ -1,0 +1,36 @@
+{
+  "config": "superpoint-lightglue-r2048-k8192",
+  "dataset": "D1_154_building",
+  "front_end": "superpoint",
+  "matcher": "lightglue",
+  "working_resolution": 2048,
+  "keypoint_budget": 8192,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1937,
+  "extraction": {
+    "reused": true,
+    "derived_by_score_truncation": true
+  },
+  "matching_seconds_total": 377.6751398000051,
+  "matching_seconds_per_pair_median": 0.16178410001157317,
+  "matching_peak_gpu_mb": 1902.67529296875,
+  "median_verified_inliers": 807.0,
+  "mean_verified_inliers": 1179.0929272070211,
+  "failed_pair_fraction": 0.3541559112028911,
+  "features_path": "workspace/features/D1_154_building/superpoint-r2048-k8192.h5",
+  "matches_path": "workspace/matches/D1_154_building/superpoint-lightglue-r2048-k8192.h5",
+  "metrics_path": "results/pairwise/D1_154_building/superpoint-lightglue-r2048-k8192.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "D1_154_building",
+  "config": "doghardnet-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 3493.2430198999937,
+  "fused_points": 1541880,
+  "georeference_scale": 15.469667214536763,
+  "georeference_camera_rmse_m": 0.03356827492535404,
+  "cameras_used": 154,
+  "reference_grid_resolution_m": 0.0874000000000127,
+  "coverage_reference_fraction": 0.2685112717094644,
+  "coverage_model_fraction": 0.1114557656056215,
+  "compared_cells": 880684,
+  "compared_fraction_of_reference": 0.2908467635402906,
+  "height_difference_m": {
+    "count": 880684,
+    "mean": 0.024337758624826223,
+    "median": 0.01576000979184755,
+    "std": 0.8731604182575552,
+    "nmad": 0.03277479069957444,
+    "rmse": 0.873499042246458,
+    "p05": -0.08993876002209618,
+    "p95": 0.17970618716394707
+  },
+  "difference_raster": "results/surface/D1_154_building/doghardnet-lightglue-r2048-k8192_difference.tif"
+}

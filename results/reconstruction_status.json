@@ -1,0 +1,19 @@
+{
+  "started": "2026-09-14 01:49:13",
+  "runs": [
+    {
+      "dataset": "D1",
+      "config": "loftr-dense-r1024-kall-c8",
+      "seed": 0,
+      "returncode": 0,
+      "seconds": 3820.8852534999896
+    },
+    {
+      "dataset": "D2",
+      "config": "loftr-dense-r1024-kall-c8",
+      "seed": 0,
+      "returncode": 0,
+      "seconds": 2244.5321312999877
+    }
+  ]
+}

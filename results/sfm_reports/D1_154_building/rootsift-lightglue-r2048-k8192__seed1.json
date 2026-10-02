@@ -1,0 +1,48 @@
+{
+  "dataset": "D1_154_building",
+  "config": "rootsift-lightglue-r2048-k8192",
+  "run_id": "rootsift-lightglue-r2048-k8192__seed1",
+  "seed": 1,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 437.41233099999954,
+  "model_component_count": 1,
+  "component_registered_images": [
+    154
+  ],
+  "registered_images": 154,
+  "total_images": 154,
+  "registration_rate": 1.0,
+  "sparse_points": 77518,
+  "observations": 762285,
+  "mean_track_length": 9.833651538997394,
+  "median_track_length": 5.0,
+  "mean_reprojection_error_px": 0.7634321661029019,
+  "median_reprojection_error_px": 0.6273188746418066,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3718.451921689027,
+        3718.470553657038,
+        2701.951166971576,
+        1816.7895541608061,
+        -0.012145489030901204,
+        0.00991810525254428,
+        -0.001397014491515023,
+        -0.002291869176104107
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

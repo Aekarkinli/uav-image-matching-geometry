@@ -1,0 +1,48 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "rootsift-lightglue-r2048-k8192",
+  "run_id": "rootsift-lightglue-r2048-k8192__seed3",
+  "seed": 3,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 464.14401240000734,
+  "model_component_count": 1,
+  "component_registered_images": [
+    111
+  ],
+  "registered_images": 111,
+  "total_images": 111,
+  "registration_rate": 1.0,
+  "sparse_points": 69888,
+  "observations": 565953,
+  "mean_track_length": 8.097999656593407,
+  "median_track_length": 7.0,
+  "mean_reprojection_error_px": 0.5195650238686887,
+  "median_reprojection_error_px": 0.4060316318018355,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3702.3538014854666,
+        3702.098576891608,
+        2707.108518800306,
+        1826.83934347803,
+        -0.01246439860632391,
+        0.010510824118577884,
+        -0.0015930321818181195,
+        -0.001975476971788219
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

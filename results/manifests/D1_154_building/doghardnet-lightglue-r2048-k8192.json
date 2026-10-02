@@ -1,0 +1,43 @@
+{
+  "config": "doghardnet-lightglue-r2048-k8192",
+  "dataset": "D1_154_building",
+  "front_end": "doghardnet",
+  "matcher": "lightglue",
+  "working_resolution": 2048,
+  "keypoint_budget": 8192,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1937,
+  "extraction": {
+    "images": 154,
+    "seconds_total": 91.48252749990206,
+    "seconds_per_image_median": 0.5629966500055161,
+    "keypoints_median": 6253.0,
+    "keypoints_mean": 6253.11038961039,
+    "keypoints_min": 5989,
+    "keypoints_max": 6475,
+    "peak_gpu_mb": 1770.7802734375,
+    "reused": false
+  },
+  "matching_seconds_total": 313.13953030000266,
+  "matching_seconds_per_pair_median": 0.13158129999646917,
+  "matching_peak_gpu_mb": 1161.92236328125,
+  "median_verified_inliers": 1114.0,
+  "mean_verified_inliers": 1282.3954568921013,
+  "failed_pair_fraction": 0.055240061951471346,
+  "features_path": "workspace/features/D1_154_building/doghardnet-r2048-k8192.h5",
+  "matches_path": "workspace/matches/D1_154_building/doghardnet-lightglue-r2048-k8192.h5",
+  "metrics_path": "results/pairwise/D1_154_building/doghardnet-lightglue-r2048-k8192.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

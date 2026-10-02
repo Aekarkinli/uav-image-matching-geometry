@@ -1,0 +1,26 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "superpoint-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 2473.008242299984,
+  "fused_points": 1896440,
+  "georeference_scale": 30.101359316711598,
+  "georeference_camera_rmse_m": 0.062312615558803484,
+  "cameras_used": 111,
+  "reference_grid_resolution_m": 0.10409999999998702,
+  "coverage_reference_fraction": 0.2674809390086672,
+  "coverage_model_fraction": 0.09309801036704966,
+  "compared_cells": 967971,
+  "compared_fraction_of_reference": 0.18525852951612773,
+  "height_difference_m": {
+    "count": 967971,
+    "mean": -0.03452716664659024,
+    "median": -0.041245124715032944,
+    "std": 0.9576521988368678,
+    "nmad": 0.07883640773779743,
+    "rmse": 0.9582739231192355,
+    "p05": -0.16032652675471581,
+    "p95": 0.08846571457490882
+  },
+  "difference_raster": "results/surface/D2_111_nadir/superpoint-lightglue-r2048-k8192_difference.tif"
+}

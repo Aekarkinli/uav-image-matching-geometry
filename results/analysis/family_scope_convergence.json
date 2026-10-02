@@ -1,0 +1,20 @@
+{
+  "difference_of_gaussians": {
+    "class": "35 to 50 degrees of convergence, D1",
+    "worst_35_50_pct": 16.88888888888889,
+    "worst_35_50_config": "doghardnet-lightglue-r1024-k8192",
+    "worst_35_50_recovered": 187,
+    "best_35_50_pct": 0.0,
+    "best_35_50_config": "rootsift-lightglue-native-k8192",
+    "best_35_50_recovered": 225
+  },
+  "jointly_learned": {
+    "class": "35 to 50 degrees of convergence, D1",
+    "worst_35_50_pct": 100.0,
+    "worst_35_50_config": "aliked-lightglue-r1024-k8192",
+    "worst_35_50_recovered": 0,
+    "best_35_50_pct": 85.33333333333333,
+    "best_35_50_config": "aliked-lightglue-native-k8192",
+    "best_35_50_recovered": 33
+  }
+}

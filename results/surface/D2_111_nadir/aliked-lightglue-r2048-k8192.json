@@ -1,0 +1,26 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "aliked-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 2482.476632099977,
+  "fused_points": 1871073,
+  "georeference_scale": 30.48704346196912,
+  "georeference_camera_rmse_m": 0.17628937952227938,
+  "cameras_used": 111,
+  "reference_grid_resolution_m": 0.10409999999998702,
+  "coverage_reference_fraction": 0.2674809390086672,
+  "coverage_model_fraction": 0.0918104607836437,
+  "compared_cells": 952810,
+  "compared_fraction_of_reference": 0.18235688828308044,
+  "height_difference_m": {
+    "count": 952810,
+    "mean": -0.3539186398909646,
+    "median": -0.35732080208879324,
+    "std": 0.9884288769756469,
+    "nmad": 0.13802460956737872,
+    "rmse": 1.0498804803987523,
+    "p05": -0.5439645149242438,
+    "p95": -0.15096359706192297
+  },
+  "difference_raster": "results/surface/D2_111_nadir/aliked-lightglue-r2048-k8192_difference.tif"
+}

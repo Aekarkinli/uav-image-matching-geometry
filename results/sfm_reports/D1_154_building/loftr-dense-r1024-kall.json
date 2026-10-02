@@ -1,0 +1,49 @@
+{
+  "dataset": "D1_154_building",
+  "config": "loftr-dense-r1024-kall",
+  "run_id": "loftr-dense-r1024-kall",
+  "seed": 0,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 2953.9330297000124,
+  "model_component_count": 2,
+  "component_registered_images": [
+    125,
+    49
+  ],
+  "registered_images": 125,
+  "total_images": 154,
+  "registration_rate": 0.8116883116883117,
+  "sparse_points": 793379,
+  "observations": 4030558,
+  "mean_track_length": 5.080242859969825,
+  "median_track_length": 5.0,
+  "mean_reprojection_error_px": 1.0563455811353843,
+  "median_reprojection_error_px": 1.0067844883983137,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3714.870176712486,
+        3714.2381499533008,
+        2707.2700150623737,
+        1814.065426494482,
+        -0.01124110852041755,
+        0.008841055842424382,
+        -0.0017065521602016283,
+        -0.0020801429582635615
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

@@ -1,0 +1,830 @@
+{
+  "summary": {
+    "D1_154_building": {
+      "median_m": {
+        "order_against_one_metre": {
+          "0.5": 1.0,
+          "2": 1.0,
+          "none": 1.0
+        },
+        "values_at_one_metre": [
+          0.13007624447345734,
+          0.056210488080978394,
+          0.015550641342997551,
+          0.01771422103047371,
+          -0.03663993626832962,
+          -0.002989096101373434
+        ],
+        "configurations": [
+          "aliked-lightglue-r2048-k8192",
+          "disk-lightglue-r2048-k8192",
+          "doghardnet-lightglue-r2048-k8192",
+          "rootsift-lightglue-r2048-k8192",
+          "superpoint-lightglue-r1024-k8192",
+          "superpoint-lightglue-r2048-k8192"
+        ]
+      },
+      "trend_amplitude_m": {
+        "order_against_one_metre": {
+          "0.5": 0.5428571428571428,
+          "2": 0.8285714285714286,
+          "none": -0.7714285714285715
+        },
+        "values_at_one_metre": [
+          0.04605085569739617,
+          0.060339622313916506,
+          0.03947335624810075,
+          0.04107853305870536,
+          0.048269301003649095,
+          0.022373775933533
+        ],
+        "configurations": [
+          "aliked-lightglue-r2048-k8192",
+          "disk-lightglue-r2048-k8192",
+          "doghardnet-lightglue-r2048-k8192",
+          "rootsift-lightglue-r2048-k8192",
+          "superpoint-lightglue-r1024-k8192",
+          "superpoint-lightglue-r2048-k8192"
+        ]
+      },
+      "detrended_nmad_m": {
+        "order_against_one_metre": {
+          "0.5": 0.8285714285714286,
+          "2": 0.9999999999999999,
+          "none": -0.6571428571428571
+        },
+        "values_at_one_metre": [
+          0.046377152147821434,
+          0.03058722385685275,
+          0.028484796689920207,
+          0.02785905600588229,
+          0.035794752015909946,
+          0.028607503180122378
+        ],
+        "configurations": [
+          "aliked-lightglue-r2048-k8192",
+          "disk-lightglue-r2048-k8192",
+          "doghardnet-lightglue-r2048-k8192",
+          "rootsift-lightglue-r2048-k8192",
+          "superpoint-lightglue-r1024-k8192",
+          "superpoint-lightglue-r2048-k8192"
+        ]
+      },
+      "local_component_factor": {
+        "0.5": 1.5782548866196546,
+        "1": 1.6647065190589783,
+        "2": 1.6970103968128125,
+        "none": 1.3282856280884918
+      }
+    },
+    "D2_111_nadir": {
+      "median_m": {
+        "order_against_one_metre": {
+          "0.5": 0.9999999999999998,
+          "2": 0.9999999999999998,
+          "none": 0.9999999999999998
+        },
+        "values_at_one_metre": [
+          -0.357276976108551,
+          -0.16399940848350525,
+          -0.060847945511341095,
+          -0.055999506264925,
+          -0.04152977094054222
+        ],
+        "configurations": [
+          "aliked-lightglue-r2048-k8192",
+          "disk-lightglue-r2048-k8192",
+          "doghardnet-lightglue-r2048-k8192",
+          "rootsift-lightglue-r2048-k8192",
+          "superpoint-lightglue-r2048-k8192"
+        ]
+      },
+      "trend_amplitude_m": {
+        "order_against_one_metre": {
+          "0.5": 0.9999999999999998,
+          "2": 0.9999999999999998,
+          "none": 0.9999999999999998
+        },
+        "values_at_one_metre": [
+          0.32498803149795163,
+          0.148835240671846,
+          0.05453503683892058,
+          0.052782235054742735,
+          0.1760982436888284
+        ],
+        "configurations": [
+          "aliked-lightglue-r2048-k8192",
+          "disk-lightglue-r2048-k8192",
+          "doghardnet-lightglue-r2048-k8192",
+          "rootsift-lightglue-r2048-k8192",
+          "superpoint-lightglue-r2048-k8192"
+        ]
+      },
+      "detrended_nmad_m": {
+        "order_against_one_metre": {
+          "0.5": 0.8999999999999998,
+          "2": 0.9999999999999998,
+          "none": 0.2999999999999999
+        },
+        "values_at_one_metre": [
+          0.026643706490432125,
+          0.022616757367966443,
+          0.020226264840774694,
+          0.01974066390646714,
+          0.02119495871163729
+        ],
+        "configurations": [
+          "aliked-lightglue-r2048-k8192",
+          "disk-lightglue-r2048-k8192",
+          "doghardnet-lightglue-r2048-k8192",
+          "rootsift-lightglue-r2048-k8192",
+          "superpoint-lightglue-r2048-k8192"
+        ]
+      },
+      "local_component_factor": {
+        "0.5": 1.5831101550648645,
+        "1": 1.34968644502901,
+        "2": 1.3121267596611899,
+        "none": 1.2041591596649828
+      }
+    }
+  },
+  "rows": [
+    {
+      "dataset": "D1_154_building",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 1026588,
+      "kept_pct": 94.89286298608204,
+      "median_m": 0.12944862246513367,
+      "nmad_m": 0.045963652431964874,
+      "trend_amplitude_m": 0.05822124864270377,
+      "detrended_nmad_m": 0.04346898854519965
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 1044799,
+      "kept_pct": 96.57620034034639,
+      "median_m": 0.13007624447345734,
+      "nmad_m": 0.04721703380346298,
+      "trend_amplitude_m": 0.04605085569739617,
+      "detrended_nmad_m": 0.046377152147821434
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 1058379,
+      "kept_pct": 97.83147030195805,
+      "median_m": 0.13049142062664032,
+      "nmad_m": 0.04817415773868561,
+      "trend_amplitude_m": 0.061430481265411646,
+      "detrended_nmad_m": 0.05122899389923346
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 1081839,
+      "kept_pct": 100.0,
+      "median_m": 0.1307263821363449,
+      "nmad_m": 0.04974064603447914,
+      "trend_amplitude_m": 0.1434595921909994,
+      "detrended_nmad_m": 0.07103990445242458
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 1029265,
+      "kept_pct": 95.22868893031776,
+      "median_m": 0.05582178384065628,
+      "nmad_m": 0.03302723914384842,
+      "trend_amplitude_m": 0.045156920230386394,
+      "detrended_nmad_m": 0.029166628154111883
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 1045681,
+      "kept_pct": 96.74751465302289,
+      "median_m": 0.056210488080978394,
+      "nmad_m": 0.033722229301929474,
+      "trend_amplitude_m": 0.060339622313916506,
+      "detrended_nmad_m": 0.03058722385685275
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 1058284,
+      "kept_pct": 97.91355757354268,
+      "median_m": 0.05647381767630577,
+      "nmad_m": 0.034292932599782944,
+      "trend_amplitude_m": 0.0776403308063148,
+      "detrended_nmad_m": 0.03439548351473347
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 1080835,
+      "kept_pct": 100.0,
+      "median_m": 0.05657142773270607,
+      "nmad_m": 0.03530224412679672,
+      "trend_amplitude_m": 0.13565426894815258,
+      "detrended_nmad_m": 0.061904576636468055
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 834637,
+      "kept_pct": 94.77145037266489,
+      "median_m": 0.015290659852325916,
+      "nmad_m": 0.030598599463701248,
+      "trend_amplitude_m": 0.041597677119017656,
+      "detrended_nmad_m": 0.027830300235604302
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 848298,
+      "kept_pct": 96.32263104586889,
+      "median_m": 0.015550641342997551,
+      "nmad_m": 0.031215783208608627,
+      "trend_amplitude_m": 0.03947335624810075,
+      "detrended_nmad_m": 0.028484796689920207
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 859023,
+      "kept_pct": 97.540434480472,
+      "median_m": 0.015754293650388718,
+      "nmad_m": 0.031707845628261566,
+      "trend_amplitude_m": 0.0458229225081325,
+      "detrended_nmad_m": 0.03071960025805602
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 880684,
+      "kept_pct": 100.0,
+      "median_m": 0.015760010108351707,
+      "nmad_m": 0.03277479112148285,
+      "trend_amplitude_m": 0.21881992707995432,
+      "detrended_nmad_m": 0.072291885893244
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "0.5",
+      "cells": 152233,
+      "kept_pct": 12.045970499308812,
+      "median_m": -0.11706306040287018,
+      "nmad_m": 0.30299481749534607,
+      "trend_amplitude_m": 0.6547578722038293,
+      "detrended_nmad_m": 0.11309428654987677
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "1",
+      "cells": 274644,
+      "kept_pct": 21.732170566251533,
+      "median_m": -0.3068615198135376,
+      "nmad_m": 0.5591812133789062,
+      "trend_amplitude_m": 1.2615516533143205,
+      "detrended_nmad_m": 0.14704589258847442
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "2",
+      "cells": 546114,
+      "kept_pct": 43.213187241002494,
+      "median_m": -0.9560725092887878,
+      "nmad_m": 1.1336232423782349,
+      "trend_amplitude_m": 0.47546869928248126,
+      "detrended_nmad_m": 1.085705361225301
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "none",
+      "cells": 1263767,
+      "kept_pct": 100.0,
+      "median_m": -0.1850077211856842,
+      "nmad_m": 2.9502992630004883,
+      "trend_amplitude_m": 2.9377296458147426,
+      "detrended_nmad_m": 4.095309981334062
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 846003,
+      "kept_pct": 94.87752879679795,
+      "median_m": 0.017457878217101097,
+      "nmad_m": 0.030170097947120667,
+      "trend_amplitude_m": 0.04474250754888741,
+      "detrended_nmad_m": 0.027564994072440098
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 859512,
+      "kept_pct": 96.39253587894298,
+      "median_m": 0.01771422103047371,
+      "nmad_m": 0.030750731006264687,
+      "trend_amplitude_m": 0.04107853305870536,
+      "detrended_nmad_m": 0.02785905600588229
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 870321,
+      "kept_pct": 97.60474341102572,
+      "median_m": 0.017898092046380043,
+      "nmad_m": 0.031201273202896118,
+      "trend_amplitude_m": 0.04108854115788057,
+      "detrended_nmad_m": 0.030187790243034224
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 891679,
+      "kept_pct": 100.0,
+      "median_m": 0.01789759285748005,
+      "nmad_m": 0.032210733741521835,
+      "trend_amplitude_m": 0.2160164528092854,
+      "detrended_nmad_m": 0.07260175975572472
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r1024-k8192",
+      "method": "SuperPoint",
+      "resolution": 1024,
+      "gate_m": "0.5",
+      "cells": 903399,
+      "kept_pct": 94.86814636215856,
+      "median_m": -0.03701251000165939,
+      "nmad_m": 0.03603487089276314,
+      "trend_amplitude_m": 0.03868981045133357,
+      "detrended_nmad_m": 0.034336412614045214
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r1024-k8192",
+      "method": "SuperPoint",
+      "resolution": 1024,
+      "gate_m": "1",
+      "cells": 919034,
+      "kept_pct": 96.51001608790803,
+      "median_m": -0.03663993626832962,
+      "nmad_m": 0.036905113607645035,
+      "trend_amplitude_m": 0.048269301003649095,
+      "detrended_nmad_m": 0.035794752015909946
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r1024-k8192",
+      "method": "SuperPoint",
+      "resolution": 1024,
+      "gate_m": "2",
+      "cells": 930377,
+      "kept_pct": 97.70117235904178,
+      "median_m": -0.036359552294015884,
+      "nmad_m": 0.03756917640566826,
+      "trend_amplitude_m": 0.06976976025455899,
+      "detrended_nmad_m": 0.03883182146591735
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r1024-k8192",
+      "method": "SuperPoint",
+      "resolution": 1024,
+      "gate_m": "none",
+      "cells": 952268,
+      "kept_pct": 100.0,
+      "median_m": -0.036305174231529236,
+      "nmad_m": 0.03882336616516113,
+      "trend_amplitude_m": 0.1509226517930483,
+      "detrended_nmad_m": 0.05944884132196868
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 935735,
+      "kept_pct": 95.15807221858385,
+      "median_m": -0.003229695139452815,
+      "nmad_m": 0.02863484062254429,
+      "trend_amplitude_m": 0.014883737161428177,
+      "detrended_nmad_m": 0.027542438749106366
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 950666,
+      "kept_pct": 96.6764563511595,
+      "median_m": -0.002989096101373434,
+      "nmad_m": 0.02926376275718212,
+      "trend_amplitude_m": 0.022373775933533,
+      "detrended_nmad_m": 0.028607503180122378
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 961432,
+      "kept_pct": 97.771287479102,
+      "median_m": -0.002826447132974863,
+      "nmad_m": 0.029722271487116814,
+      "trend_amplitude_m": 0.042605819296772485,
+      "detrended_nmad_m": 0.03240907948154616
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 983348,
+      "kept_pct": 100.0,
+      "median_m": -0.002820385852828622,
+      "nmad_m": 0.030682744458317757,
+      "trend_amplitude_m": 0.20730261540872819,
+      "detrended_nmad_m": 0.07896504153448426
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 819437,
+      "kept_pct": 86.00214103546352,
+      "median_m": -0.33633577823638916,
+      "nmad_m": 0.1179485097527504,
+      "trend_amplitude_m": 0.27365802778411563,
+      "detrended_nmad_m": 0.030852366229414705
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 928686,
+      "kept_pct": 97.46812061166445,
+      "median_m": -0.357276976108551,
+      "nmad_m": 0.13447345793247223,
+      "trend_amplitude_m": 0.32498803149795163,
+      "detrended_nmad_m": 0.026643706490432125
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 935958,
+      "kept_pct": 98.23133678277935,
+      "median_m": -0.3572182059288025,
+      "nmad_m": 0.13552673161029816,
+      "trend_amplitude_m": 0.32918585862604544,
+      "detrended_nmad_m": 0.02664284033554775
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 952810,
+      "kept_pct": 100.0,
+      "median_m": -0.35732078552246094,
+      "nmad_m": 0.13802461326122284,
+      "trend_amplitude_m": 0.479143380738674,
+      "detrended_nmad_m": 0.06319021350912395
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 928800,
+      "kept_pct": 96.73135906101429,
+      "median_m": -0.16390565037727356,
+      "nmad_m": 0.05832891911268234,
+      "trend_amplitude_m": 0.14676294371453452,
+      "detrended_nmad_m": 0.022502174300002977
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 936326,
+      "kept_pct": 97.51516634815165,
+      "median_m": -0.16399940848350525,
+      "nmad_m": 0.05889930948615074,
+      "trend_amplitude_m": 0.148835240671846,
+      "detrended_nmad_m": 0.022616757367966443
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 942934,
+      "kept_pct": 98.20336705947291,
+      "median_m": -0.16392800211906433,
+      "nmad_m": 0.059442102909088135,
+      "trend_amplitude_m": 0.15602624777613,
+      "detrended_nmad_m": 0.022432723092525694
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 960185,
+      "kept_pct": 100.0,
+      "median_m": -0.1638961285352707,
+      "nmad_m": 0.060796331614255905,
+      "trend_amplitude_m": 0.2517441388564424,
+      "detrended_nmad_m": 0.05462439605266191
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 935522,
+      "kept_pct": 96.81355833979259,
+      "median_m": -0.060881324112415314,
+      "nmad_m": 0.029805397614836693,
+      "trend_amplitude_m": 0.05191210374530619,
+      "detrended_nmad_m": 0.01948845197582009
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 942477,
+      "kept_pct": 97.53330442620559,
+      "median_m": -0.060847945511341095,
+      "nmad_m": 0.030084673315286636,
+      "trend_amplitude_m": 0.05453503683892058,
+      "detrended_nmad_m": 0.020226264840774694
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 949179,
+      "kept_pct": 98.22686851982742,
+      "median_m": -0.06078924611210823,
+      "nmad_m": 0.03036261908710003,
+      "trend_amplitude_m": 0.059675978582653194,
+      "detrended_nmad_m": 0.020515476870078243
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 966313,
+      "kept_pct": 100.0,
+      "median_m": -0.06073996052145958,
+      "nmad_m": 0.031059255823493004,
+      "trend_amplitude_m": 0.19647819902913266,
+      "detrended_nmad_m": 0.05247662902527314
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "0.5",
+      "cells": 949766,
+      "kept_pct": 96.59829212824904,
+      "median_m": 0.009211864322423935,
+      "nmad_m": 0.05178635194897652,
+      "trend_amplitude_m": 0.17441530473469197,
+      "detrended_nmad_m": 0.023985849051208704
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "1",
+      "cells": 959123,
+      "kept_pct": 97.54996887751574,
+      "median_m": 0.009431297890841961,
+      "nmad_m": 0.052525244653224945,
+      "trend_amplitude_m": 0.1789226367028546,
+      "detrended_nmad_m": 0.02433067235884192
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "2",
+      "cells": 966024,
+      "kept_pct": 98.25185209293622,
+      "median_m": 0.009539715945720673,
+      "nmad_m": 0.053057968616485596,
+      "trend_amplitude_m": 0.18392115115568525,
+      "detrended_nmad_m": 0.024736690720197442
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "gate_m": "none",
+      "cells": 983212,
+      "kept_pct": 100.0,
+      "median_m": 0.009640131145715714,
+      "nmad_m": 0.05433885008096695,
+      "trend_amplitude_m": 0.24825553560358943,
+      "detrended_nmad_m": 0.054817826557846755
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 944703,
+      "kept_pct": 96.8810890191526,
+      "median_m": -0.05602744221687317,
+      "nmad_m": 0.028963929042220116,
+      "trend_amplitude_m": 0.05096501435737956,
+      "detrended_nmad_m": 0.01953033628670471
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 951577,
+      "kept_pct": 97.58603079018292,
+      "median_m": -0.055999506264925,
+      "nmad_m": 0.029224731028079987,
+      "trend_amplitude_m": 0.052782235054742735,
+      "detrended_nmad_m": 0.01974066390646714
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 957957,
+      "kept_pct": 98.24031192186365,
+      "median_m": -0.055944595485925674,
+      "nmad_m": 0.029467113316059113,
+      "trend_amplitude_m": 0.05544596924594533,
+      "detrended_nmad_m": 0.020305081151174235
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 975116,
+      "kept_pct": 100.0,
+      "median_m": -0.055907223373651505,
+      "nmad_m": 0.030130576342344284,
+      "trend_amplitude_m": 0.195127661766797,
+      "detrended_nmad_m": 0.05663785329773199
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "0.5",
+      "cells": 936691,
+      "kept_pct": 96.76849822980233,
+      "median_m": -0.04166591912508011,
+      "nmad_m": 0.07631605118513107,
+      "trend_amplitude_m": 0.17358885222724169,
+      "detrended_nmad_m": 0.02052670866496238
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "1",
+      "cells": 944264,
+      "kept_pct": 97.55085637896177,
+      "median_m": -0.04152977094054222,
+      "nmad_m": 0.07690427452325821,
+      "trend_amplitude_m": 0.1760982436888284,
+      "detrended_nmad_m": 0.02119495871163729
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "2",
+      "cells": 950767,
+      "kept_pct": 98.22267402639129,
+      "median_m": -0.04139107093214989,
+      "nmad_m": 0.07743814587593079,
+      "trend_amplitude_m": 0.17659772007041855,
+      "detrended_nmad_m": 0.021577478741598505
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "gate_m": "none",
+      "cells": 967971,
+      "kept_pct": 100.0,
+      "median_m": -0.041245125234127045,
+      "nmad_m": 0.07883640378713608,
+      "trend_amplitude_m": 0.3117604972238321,
+      "detrended_nmad_m": 0.05488193833787025
+    }
+  ]
+}

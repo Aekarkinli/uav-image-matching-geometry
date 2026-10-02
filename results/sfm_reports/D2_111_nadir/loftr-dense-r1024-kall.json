@@ -1,0 +1,50 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "loftr-dense-r1024-kall",
+  "run_id": "loftr-dense-r1024-kall",
+  "seed": 0,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 2839.042784499994,
+  "model_component_count": 3,
+  "component_registered_images": [
+    111,
+    9,
+    5
+  ],
+  "registered_images": 111,
+  "total_images": 111,
+  "registration_rate": 1.0,
+  "sparse_points": 834073,
+  "observations": 4476374,
+  "mean_track_length": 5.36688515273843,
+  "median_track_length": 5.0,
+  "mean_reprojection_error_px": 1.0057141603391648,
+  "median_reprojection_error_px": 0.9514512354113281,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3698.230066033874,
+        3696.3721556701203,
+        2709.54215474186,
+        1834.6125779470508,
+        -0.011734611657108285,
+        0.009598923578422035,
+        -0.001424097121614135,
+        -0.001994350619232055
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

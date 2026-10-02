@@ -1,0 +1,16 @@
+Property,D1,D2
+Images,154,111
+Scheduled image pairs,1937,1217
+"Camera extent, east (m)",174,306
+"Camera extent, north (m)",169,326
+Images per hectare,52.3,11.1
+Flying height above terrain (m),71.2,93.8
+"Terrain relief, 2nd to 98th percentile (m)",13.2,16.5
+"Camera tilt from nadir, median (deg)",30.3,0.6
+"Camera tilt from nadir, 95th percentile (deg)",30.6,44.2
+Images tilted beyond 20 deg (per cent),79.9,8.1
+"Baseline, median (m)",30.1,51.6
+"Baseline, 95th percentile (m)",81.0,125.6
+"Convergence angle, median (deg)",1.3,0.2
+"Convergence angle, 95th percentile (deg)",42.3,44.4
+"Base to height ratio, median",0.422,0.550

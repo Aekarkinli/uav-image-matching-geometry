@@ -1,0 +1,26 @@
+{
+  "dataset": "D1_154_building",
+  "config": "rootsift-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 3448.441619899997,
+  "fused_points": 1559063,
+  "georeference_scale": 13.873421735094652,
+  "georeference_camera_rmse_m": 0.03380266491686104,
+  "cameras_used": 154,
+  "reference_grid_resolution_m": 0.0874000000000127,
+  "coverage_reference_fraction": 0.2685112717094644,
+  "coverage_model_fraction": 0.11258168621886293,
+  "compared_cells": 891679,
+  "compared_fraction_of_reference": 0.29447787318361957,
+  "height_difference_m": {
+    "count": 891679,
+    "mean": 0.024966804691371927,
+    "median": 0.01789759340749697,
+    "std": 0.8582612523228241,
+    "nmad": 0.03221073277413502,
+    "rmse": 0.8586238364262472,
+    "p05": -0.08699881179838939,
+    "p95": 0.16768615969444903
+  },
+  "difference_raster": "results/surface/D1_154_building/rootsift-lightglue-r2048-k8192_difference.tif"
+}

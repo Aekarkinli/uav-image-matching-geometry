@@ -1,0 +1,26 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "loftr-dense-r1024-kall",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 2199.0261280999985,
+  "fused_points": 1929046,
+  "georeference_scale": 30.229412997025428,
+  "georeference_camera_rmse_m": 0.07256027941520346,
+  "cameras_used": 111,
+  "reference_grid_resolution_m": 0.10409999999998702,
+  "coverage_reference_fraction": 0.2674809390086672,
+  "coverage_model_fraction": 0.09466399747517214,
+  "compared_cells": 983212,
+  "compared_fraction_of_reference": 0.18817548183014882,
+  "height_difference_m": {
+    "count": 983212,
+    "mean": 0.030186026804222187,
+    "median": 0.009640131655828554,
+    "std": 0.9428165229954673,
+    "nmad": 0.05433884761580932,
+    "rmse": 0.9432991509414099,
+    "p05": -0.08653576545192436,
+    "p95": 0.1956681499972546
+  },
+  "difference_raster": "results/surface/D2_111_nadir/loftr-dense-r1024-kall_difference.tif"
+}

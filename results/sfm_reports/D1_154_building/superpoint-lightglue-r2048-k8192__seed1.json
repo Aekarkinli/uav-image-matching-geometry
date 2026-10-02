@@ -1,0 +1,48 @@
+{
+  "dataset": "D1_154_building",
+  "config": "superpoint-lightglue-r2048-k8192",
+  "run_id": "superpoint-lightglue-r2048-k8192__seed1",
+  "seed": 1,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 665.1479718000046,
+  "model_component_count": 1,
+  "component_registered_images": [
+    154
+  ],
+  "registered_images": 154,
+  "total_images": 154,
+  "registration_rate": 1.0,
+  "sparse_points": 130278,
+  "observations": 822536,
+  "mean_track_length": 6.313698398808701,
+  "median_track_length": 4.0,
+  "mean_reprojection_error_px": 1.3007845006640042,
+  "median_reprojection_error_px": 1.3263500269243518,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3717.8738788383,
+        3717.789189101345,
+        2702.411781414359,
+        1815.816099257359,
+        -0.01143722764463162,
+        0.009093047446395736,
+        -0.0014105063627932945,
+        -0.0022130320157368075
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

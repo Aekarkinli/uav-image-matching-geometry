@@ -1,0 +1,26 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "doghardnet-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 2453.317042199982,
+  "fused_points": 1902140,
+  "georeference_scale": 30.119843218584354,
+  "georeference_camera_rmse_m": 0.029202306658390183,
+  "cameras_used": 111,
+  "reference_grid_resolution_m": 0.10409999999998702,
+  "coverage_reference_fraction": 0.2674809390086672,
+  "coverage_model_fraction": 0.09337102145719733,
+  "compared_cells": 966313,
+  "compared_fraction_of_reference": 0.18494120736294573,
+  "height_difference_m": {
+    "count": 966313,
+    "mean": -0.053071233582403274,
+    "median": -0.06073996219197397,
+    "std": 0.951158838803873,
+    "nmad": 0.03105925309909462,
+    "rmse": 0.9526377885777774,
+    "p05": -0.1408520355965265,
+    "p95": 0.026032007971389066
+  },
+  "difference_raster": "results/surface/D2_111_nadir/doghardnet-lightglue-r2048-k8192_difference.tif"
+}

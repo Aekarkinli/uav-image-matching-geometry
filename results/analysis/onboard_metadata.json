@@ -1,0 +1,433 @@
+{
+  "D1_154_building": {
+    "timestamp_file": "107_0005_Timestamp.MRK",
+    "exposures_in_timestamp_file": 154,
+    "images": 154,
+    "images_with_embedded_position": 154,
+    "embedded_position_matches_timestamp_file": 154,
+    "embedded_height_largest_difference_m": 0.005000000000109139,
+    "satellite_status_flags": {
+      "50": 154
+    },
+    "sigma_north_m_median": 0.0114155,
+    "sigma_east_m_median": 0.012796,
+    "sigma_vertical_m_median": 0.0704805,
+    "sigma_north_m_max": 0.01429,
+    "sigma_east_m_max": 0.015744,
+    "sigma_vertical_m_max": 0.075597,
+    "antenna_offset_horizontal_mm_median": 47.37338881534572,
+    "antenna_offset_vertical_mm_median": 188.0,
+    "antenna_offset_vertical_mm_range": [
+      162.0,
+      195.0
+    ],
+    "surveyed_target_check": {
+      "targets": [
+        {
+          "label": "1",
+          "projections": 92,
+          "reference_used_in_adjustment": false,
+          "d_east_m": 0.05442236963426694,
+          "d_north_m": 0.02415414247661829,
+          "d_height_m": -0.009754983442917364
+        },
+        {
+          "label": "2",
+          "projections": 67,
+          "reference_used_in_adjustment": false,
+          "d_east_m": 0.04341442714212462,
+          "d_north_m": 0.0019392771646380424,
+          "d_height_m": -0.0003240272342281969
+        },
+        {
+          "label": "3",
+          "projections": 43,
+          "reference_used_in_adjustment": false,
+          "d_east_m": 0.005968266923446208,
+          "d_north_m": 0.02935794275254011,
+          "d_height_m": 0.01069219959072143
+        }
+      ],
+      "n": 3,
+      "rms_east_m": 0.04034115768772272,
+      "rms_north_m": 0.02197780848464715,
+      "rms_height_m": 0.008358385563969815,
+      "rms_plan_m": 0.045939450033424846,
+      "grid": "three-degree transverse Mercator, central meridian 36 degrees"
+    },
+    "reference_project": {
+      "project": "D1",
+      "software": "OpenDroneMap",
+      "created_with_version": "3.6.2",
+      "options": {
+        "camera_lens": "brown",
+        "feature_quality": "ultra",
+        "feature_type": "dspsift",
+        "min_num_features": 40000,
+        "matcher_type": "flann",
+        "matcher_neighbors": 0,
+        "gps_accuracy": 10.0,
+        "pc_quality": "high",
+        "dem_resolution": 8.74,
+        "dem_gapfill_steps": 0,
+        "orthophoto_resolution": 8.74,
+        "sfm_algorithm": "incremental",
+        "use_fixed_camera_params": false,
+        "geo": "/datasets/D1/geo.txt"
+      },
+      "registered_images": 154,
+      "images": 154,
+      "components": 1,
+      "tie_points": 628259,
+      "reprojection_error_px": 0.7770607741979972,
+      "optimised_camera": {
+        "k1": -0.009648879265144034,
+        "k2": 0.002307209512441047,
+        "k3": 0.0071933168933662455,
+        "p1": -0.0014515794786898943,
+        "p2": -0.0022715196184373804,
+        "focal": 0.6798566718766117,
+        "aspect_ratio": 1.0,
+        "cx": -0.006282412713547451,
+        "cy": -0.0015378493736797714
+      },
+      "adjusted_calibration": {
+        "width": 5472,
+        "height": 3648,
+        "f": 3720.1757085088193,
+        "f_y": 3720.1757085088193,
+        "cx": -34.37736236853166,
+        "cy": -8.41511177277571,
+        "k1": -0.009648879265144034,
+        "k2": 0.002307209512441047,
+        "k3": 0.0071933168933662455,
+        "p1_opencv": -0.0014515794786898943,
+        "p2_opencv": -0.0022715196184373804
+      },
+      "gps_errors_m": {
+        "mean": {
+          "x": 0.0003240217097445226,
+          "y": -9.24176176239878e-05,
+          "z": 0.0029003809446831756
+        },
+        "std": {
+          "x": 0.019049131654606578,
+          "y": 0.022339347120382068,
+          "z": 0.028425610891479984
+        },
+        "error": {
+          "x": 0.01905188722575588,
+          "y": 0.022339538284865464,
+          "z": 0.028573196604127205
+        },
+        "average_error": 0.03845687398184348,
+        "ce90": 0.040232941736073446,
+        "le90": 0.04711695124944981
+      },
+      "camera_positions_enabled": "true",
+      "surveyed_targets_in_adjustment": 0
+    },
+    "processing_history": {
+      "project_last_saved_version": "3.6.2",
+      "products": {
+        "point_cloud": {
+          "path": "opensfm/reconstruction.json",
+          "created_with_version": "3.6.2"
+        },
+        "dense_cloud": {
+          "path": "odm_georeferencing/odm_georeferenced_model.laz",
+          "created_with_version": "3.6.2"
+        },
+        "elevation": {
+          "path": "odm_dem/dsm.tif",
+          "created_with_version": "3.6.2"
+        },
+        "orthomosaic": {
+          "path": "odm_orthophoto/odm_orthophoto.tif",
+          "created_with_version": "3.6.2"
+        }
+      },
+      "stages": [
+        "dataset",
+        "split",
+        "merge",
+        "opensfm",
+        "openmvs",
+        "odm_filterpoints",
+        "odm_meshing",
+        "mvs_texturing",
+        "odm_georeferencing",
+        "odm_dem",
+        "odm_orthophoto",
+        "odm_report",
+        "odm_postprocess"
+      ],
+      "elevation_resolution_m": 0.0874
+    },
+    "acquisition": {
+      "camera_make": "DJI",
+      "camera_model": "FC6310R",
+      "camera_firmware": "v01.09.1759",
+      "body_serial": "35d6ff2d4a86beb2e67827e25bc394ba",
+      "body_serial_constant": true,
+      "platform_identifier": "34YDHB90014168",
+      "platform_identifier_constant": true,
+      "focal_length_mm": 8.8,
+      "focal_length_35mm_equivalent_mm": 24,
+      "image_width": 5472,
+      "image_height": 3648,
+      "file_format": "MPO",
+      "bit_depth": 8,
+      "images": 154,
+      "file_size_bytes_total": 1349433624,
+      "file_size_bytes_mean": 8762556.0,
+      "first_exposure": "2023-09-26T14:43:37",
+      "last_exposure": "2023-09-26T14:52:43",
+      "elapsed_s": 546.0,
+      "exposure_settings": {
+        "ExposureTime": {
+          "0.00125": 19,
+          "0.001562": 107,
+          "0.002": 28
+        },
+        "FNumber": {
+          "6.3": 154
+        },
+        "ISOSpeedRatings": {
+          "100": 154
+        },
+        "ExposureProgram": {
+          "2": 154
+        },
+        "ExposureMode": {
+          "0": 154
+        },
+        "MeteringMode": {
+          "1": 154
+        },
+        "WhiteBalance": {
+          "1": 154
+        }
+      },
+      "gimbal_pitch_deg": {
+        "-59.0": 123,
+        "-89.9": 31
+      },
+      "relative_altitude_m_range": [
+        69.89,
+        71.11
+      ],
+      "absolute_altitude_m_range": [
+        1300.59,
+        1301.8
+      ]
+    }
+  },
+  "D2_111_nadir": {
+    "timestamp_file": "100_0010_Timestamp.MRK",
+    "exposures_in_timestamp_file": 111,
+    "images": 111,
+    "images_with_embedded_position": 111,
+    "embedded_position_matches_timestamp_file": 111,
+    "embedded_height_largest_difference_m": 0.005000000000109139,
+    "satellite_status_flags": {
+      "50": 111
+    },
+    "sigma_north_m_median": 0.012644,
+    "sigma_east_m_median": 0.013725,
+    "sigma_vertical_m_median": 0.024108,
+    "sigma_north_m_max": 0.013947,
+    "sigma_east_m_max": 0.015378,
+    "sigma_vertical_m_max": 0.026627,
+    "antenna_offset_horizontal_mm_median": 45.221676218380054,
+    "antenna_offset_vertical_mm_median": 189.0,
+    "antenna_offset_vertical_mm_range": [
+      170.0,
+      195.0
+    ],
+    "surveyed_target_check": null,
+    "reference_project": {
+      "project": "D2",
+      "software": "OpenDroneMap",
+      "created_with_version": "3.6.2",
+      "options": {
+        "camera_lens": "brown",
+        "feature_quality": "ultra",
+        "feature_type": "dspsift",
+        "min_num_features": 40000,
+        "matcher_type": "flann",
+        "matcher_neighbors": 0,
+        "gps_accuracy": 10.0,
+        "pc_quality": "high",
+        "dem_resolution": 10.41,
+        "dem_gapfill_steps": 0,
+        "orthophoto_resolution": 10.41,
+        "sfm_algorithm": "incremental",
+        "use_fixed_camera_params": false,
+        "geo": "/datasets/D2/geo.txt"
+      },
+      "registered_images": 111,
+      "images": 111,
+      "components": 1,
+      "tie_points": 568702,
+      "reprojection_error_px": 0.5910289778651987,
+      "optimised_camera": {
+        "k1": -0.009840490529549729,
+        "k2": 0.0022196464896033488,
+        "k3": 0.007392725048429572,
+        "p1": -0.0017198124615260177,
+        "p2": -0.0019180445734203358,
+        "focal": 0.6760820283508586,
+        "aspect_ratio": 1.0,
+        "cx": -0.005209215310107386,
+        "cy": 0.00013020167366937873
+      },
+      "adjusted_calibration": {
+        "width": 5472,
+        "height": 3648,
+        "f": 3699.5208591358983,
+        "f_y": 3699.5208591358983,
+        "cx": -28.504826176907613,
+        "cy": 0.7124635583188403,
+        "k1": -0.009840490529549729,
+        "k2": 0.0022196464896033488,
+        "k3": 0.007392725048429572,
+        "p1_opencv": -0.0017198124615260177,
+        "p2_opencv": -0.0019180445734203358
+      },
+      "gps_errors_m": {
+        "mean": {
+          "x": -1.6715057766331738e-13,
+          "y": -1.2218334452304465e-12,
+          "z": -3.668704979448907e-12
+        },
+        "std": {
+          "x": 0.12912640099495487,
+          "y": 0.16166142095168745,
+          "z": 0.016290638029946885
+        },
+        "error": {
+          "x": 0.12912640099495484,
+          "y": 0.16166142095168745,
+          "z": 0.016290638029946892
+        },
+        "average_error": 0.1371338528983347,
+        "ce90": 0.17414868294946595,
+        "le90": 0.021599465940312257
+      },
+      "camera_positions_enabled": "true",
+      "surveyed_targets_in_adjustment": 0
+    },
+    "processing_history": {
+      "project_last_saved_version": "3.6.2",
+      "products": {
+        "point_cloud": {
+          "path": "opensfm/reconstruction.json",
+          "created_with_version": "3.6.2"
+        },
+        "dense_cloud": {
+          "path": "odm_georeferencing/odm_georeferenced_model.laz",
+          "created_with_version": "3.6.2"
+        },
+        "elevation": {
+          "path": "odm_dem/dsm.tif",
+          "created_with_version": "3.6.2"
+        },
+        "orthomosaic": {
+          "path": "odm_orthophoto/odm_orthophoto.tif",
+          "created_with_version": "3.6.2"
+        }
+      },
+      "stages": [
+        "dataset",
+        "split",
+        "merge",
+        "opensfm",
+        "openmvs",
+        "odm_filterpoints",
+        "odm_meshing",
+        "mvs_texturing",
+        "odm_georeferencing",
+        "odm_dem",
+        "odm_orthophoto",
+        "odm_report",
+        "odm_postprocess"
+      ],
+      "elevation_resolution_m": 0.1041
+    },
+    "acquisition": {
+      "camera_make": "DJI",
+      "camera_model": "FC6310R",
+      "camera_firmware": "v01.09.1755",
+      "body_serial": "35d6ff2d4a86beb2e67827e25bc394ba",
+      "body_serial_constant": true,
+      "platform_identifier": "34YDHB90014168",
+      "platform_identifier_constant": true,
+      "focal_length_mm": 8.8,
+      "focal_length_35mm_equivalent_mm": 24,
+      "image_width": 5472,
+      "image_height": 3648,
+      "file_format": "MPO",
+      "bit_depth": 8,
+      "images": 111,
+      "file_size_bytes_total": 964059052,
+      "file_size_bytes_mean": 8685216.684684685,
+      "first_exposure": "2022-06-08T16:15:48",
+      "last_exposure": "2022-06-08T16:20:29",
+      "elapsed_s": 281.0,
+      "exposure_settings": {
+        "ExposureTime": {
+          "0.004166": 3,
+          "0.005": 108
+        },
+        "FNumber": {
+          "4.5": 67,
+          "5.0": 44
+        },
+        "ISOSpeedRatings": {
+          "100": 111
+        },
+        "ExposureProgram": {
+          "2": 111
+        },
+        "ExposureMode": {
+          "0": 111
+        },
+        "MeteringMode": {
+          "1": 111
+        },
+        "WhiteBalance": {
+          "1": 111
+        }
+      },
+      "gimbal_pitch_deg": {
+        "-44.9": 7,
+        "-45.0": 2,
+        "-89.0": 102
+      },
+      "relative_altitude_m_range": [
+        89.88,
+        90.08
+      ],
+      "absolute_altitude_m_range": [
+        1322.99,
+        1323.2
+      ]
+    }
+  },
+  "block_separation": {
+    "centroids": {
+      "D1_154_building": {
+        "latitude": 37.922726665324674,
+        "longitude": 34.58368229396104
+      },
+      "D2_111_nadir": {
+        "latitude": 37.93787871792793,
+        "longitude": 34.62181855891892
+      }
+    },
+    "distance_m": 3750.9372883370625,
+    "method": "geodesic inverse on the WGS 84 ellipsoid, pyproj.Geod",
+    "source": "mean of the exposure positions in the timestamp files"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "aliked-lightglue-r2048-k16384",
+  "run_id": "aliked-lightglue-r2048-k16384",
+  "seed": 0,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 787.4741595999803,
+  "model_component_count": 1,
+  "component_registered_images": [
+    111
+  ],
+  "registered_images": 111,
+  "total_images": 111,
+  "registration_rate": 1.0,
+  "sparse_points": 174226,
+  "observations": 1618848,
+  "mean_track_length": 9.2916556656297,
+  "median_track_length": 8.0,
+  "mean_reprojection_error_px": 0.7768500862526961,
+  "median_reprojection_error_px": 0.6695113890145192,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3716.6876190227663,
+        3713.3931824814745,
+        2704.6522614361993,
+        1825.586993338025,
+        -0.012573353855803774,
+        0.010894979392065426,
+        -0.0010714214930244766,
+        -0.00199714530679604
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

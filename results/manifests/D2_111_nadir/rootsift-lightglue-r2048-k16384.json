@@ -1,0 +1,41 @@
+{
+  "config": "rootsift-lightglue-r2048-k16384",
+  "dataset": "D2_111_nadir",
+  "front_end": "rootsift",
+  "matcher": "lightglue",
+  "working_resolution": 2048,
+  "keypoint_budget": 16384,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1217,
+  "extraction": {
+    "reused": true
+  },
+  "matching_seconds_total": 544.6174567000126,
+  "matching_seconds_per_pair_median": 0.34121980000054464,
+  "matching_peak_gpu_mb": 4809.59326171875,
+  "median_verified_inliers": 2811.0,
+  "mean_verified_inliers": 2863.471651602301,
+  "failed_pair_fraction": 0.21857025472473296,
+  "verification_status_counts": {
+    "ok": 1011,
+    "too_few_matches": 130,
+    "no_matches": 75,
+    "degenerate": 1
+  },
+  "features_path": "workspace/features/D2_111_nadir/rootsift-r2048-k16384.h5",
+  "matches_path": "workspace/matches/D2_111_nadir/rootsift-lightglue-r2048-k16384.h5",
+  "metrics_path": "results/pairwise/D2_111_nadir/rootsift-lightglue-r2048-k16384.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

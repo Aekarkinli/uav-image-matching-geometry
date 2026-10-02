@@ -1,0 +1,42 @@
+{
+  "config": "disk-lightglue-r2048-k4096",
+  "dataset": "D1_154_building",
+  "front_end": "disk",
+  "matcher": "lightglue",
+  "working_resolution": 2048,
+  "keypoint_budget": 4096,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1937,
+  "extraction": {
+    "reused": true,
+    "derived_by_score_truncation": true
+  },
+  "matching_seconds_total": 107.88336609999533,
+  "matching_seconds_per_pair_median": 0.042826599994441494,
+  "matching_peak_gpu_mb": 526.1865234375,
+  "median_verified_inliers": 299.0,
+  "mean_verified_inliers": 692.8657718120805,
+  "failed_pair_fraction": 0.4161073825503356,
+  "verification_status_counts": {
+    "ok": 1868,
+    "too_few_matches": 45,
+    "no_matches": 22,
+    "no_model": 2
+  },
+  "features_path": "workspace/features/D1_154_building/disk-r2048-k4096.h5",
+  "matches_path": "workspace/matches/D1_154_building/disk-lightglue-r2048-k4096.h5",
+  "metrics_path": "results/pairwise/D1_154_building/disk-lightglue-r2048-k4096.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "D1_154_building",
+  "config": "loftr-dense-r1024-kall",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 3424.5926801000023,
+  "fused_points": 2237707,
+  "georeference_scale": 15.11414788388304,
+  "georeference_camera_rmse_m": 3.797451349785785,
+  "cameras_used": 125,
+  "reference_grid_resolution_m": 0.0874000000000127,
+  "coverage_reference_fraction": 0.2685112717094644,
+  "coverage_model_fraction": 0.15493011701522585,
+  "compared_cells": 1263767,
+  "compared_fraction_of_reference": 0.4173603038309115,
+  "height_difference_m": {
+    "count": 1263767,
+    "mean": 2.1305761475300726,
+    "median": -0.18500772157426582,
+    "std": 4.545097764757573,
+    "nmad": 2.9502991536011636,
+    "rmse": 5.019686450898006,
+    "p05": -2.3066231153547276,
+    "p95": 7.813216332078196
+  },
+  "difference_raster": "results/surface/D1_154_building/loftr-dense-r1024-kall_difference.tif"
+}

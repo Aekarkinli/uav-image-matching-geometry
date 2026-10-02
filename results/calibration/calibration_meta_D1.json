@@ -1,0 +1,8 @@
+{
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "total_vram_mb": 8187.5,
+  "torch": "2.12.0+cu126",
+  "keypoint_budget": 8192,
+  "dataset": "D1",
+  "images_probed": 3
+}

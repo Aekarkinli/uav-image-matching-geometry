@@ -1,0 +1,42 @@
+{
+  "config": "loftr-dense-r1024-kall",
+  "dataset": "D1_154_building",
+  "front_end": "loftr",
+  "matcher": "dense",
+  "working_resolution": 1024,
+  "keypoint_budget": null,
+  "detector_free": true,
+  "keypoint_budget_note": "not applicable to a detector-free matcher",
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "pairs": 1937,
+  "extraction": {
+    "reused": false,
+    "keypoints_median": 38945.0
+  },
+  "matching_seconds_total": 1208.352470600017,
+  "matching_seconds_per_pair_median": 0.6238267788332561,
+  "matching_peak_gpu_mb": 2440.91392,
+  "frame_size": [
+    5472,
+    3648
+  ],
+  "median_verified_inliers": 844.0,
+  "mean_verified_inliers": 2027.7836861125452,
+  "failed_pair_fraction": 0.2483221476510067,
+  "verification_status_counts": {
+    "ok": 1937
+  },
+  "features_path": "workspace/features/D1_154_building/loftr-r1024-kall.h5",
+  "matches_path": "workspace/matches/D1_154_building/loftr-dense-r1024-kall.h5",
+  "metrics_path": "results/pairwise/D1_154_building/loftr-dense-r1024-kall.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

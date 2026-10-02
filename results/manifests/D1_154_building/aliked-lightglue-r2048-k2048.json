@@ -1,0 +1,36 @@
+{
+  "config": "aliked-lightglue-r2048-k2048",
+  "dataset": "D1_154_building",
+  "front_end": "aliked",
+  "matcher": "lightglue",
+  "working_resolution": 2048,
+  "keypoint_budget": 2048,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1937,
+  "extraction": {
+    "reused": true,
+    "derived_by_score_truncation": true
+  },
+  "matching_seconds_total": 75.21181829999841,
+  "matching_seconds_per_pair_median": 0.02286949999688659,
+  "matching_peak_gpu_mb": 177.830078125,
+  "median_verified_inliers": 182.0,
+  "mean_verified_inliers": 301.4186886938565,
+  "failed_pair_fraction": 0.33608673205988643,
+  "features_path": "workspace/features/D1_154_building/aliked-r2048-k2048.h5",
+  "matches_path": "workspace/matches/D1_154_building/aliked-lightglue-r2048-k2048.h5",
+  "metrics_path": "results/pairwise/D1_154_building/aliked-lightglue-r2048-k2048.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

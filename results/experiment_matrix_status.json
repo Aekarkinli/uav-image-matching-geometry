@@ -1,0 +1,85 @@
+{
+  "started": "2026-09-13 12:42:36",
+  "cells": [
+    {
+      "dataset": "D1",
+      "front_end": "rootsift",
+      "matcher": "lightglue",
+      "resize": 2048,
+      "budget": 8192,
+      "config": "rootsift-lightglue-r2048-k8192",
+      "returncode": 0,
+      "seconds": 1119.6749415999802
+    },
+    {
+      "dataset": "D1",
+      "front_end": "rootsift",
+      "matcher": "nn_ratio",
+      "resize": 2048,
+      "budget": 8192,
+      "config": "rootsift-nn_ratio-r2048-k8192",
+      "returncode": 0,
+      "seconds": 334.1466054000193
+    },
+    {
+      "dataset": "D1",
+      "front_end": "rootsift",
+      "matcher": "lightglue",
+      "resize": 2048,
+      "budget": 4096,
+      "config": "rootsift-lightglue-r2048-k4096",
+      "returncode": 0,
+      "seconds": 749.0294329999888
+    },
+    {
+      "dataset": "D1",
+      "front_end": "rootsift",
+      "matcher": "lightglue",
+      "resize": 2048,
+      "budget": 2048,
+      "config": "rootsift-lightglue-r2048-k2048",
+      "returncode": 0,
+      "seconds": 663.5252307000046
+    },
+    {
+      "dataset": "D2",
+      "front_end": "rootsift",
+      "matcher": "lightglue",
+      "resize": 2048,
+      "budget": 8192,
+      "config": "rootsift-lightglue-r2048-k8192",
+      "returncode": 0,
+      "seconds": 622.067636199994
+    },
+    {
+      "dataset": "D2",
+      "front_end": "rootsift",
+      "matcher": "nn_ratio",
+      "resize": 2048,
+      "budget": 8192,
+      "config": "rootsift-nn_ratio-r2048-k8192",
+      "returncode": 0,
+      "seconds": 192.511348
+    },
+    {
+      "dataset": "D2",
+      "front_end": "rootsift",
+      "matcher": "lightglue",
+      "resize": 2048,
+      "budget": 4096,
+      "config": "rootsift-lightglue-r2048-k4096",
+      "returncode": 0,
+      "seconds": 445.10049750001053
+    },
+    {
+      "dataset": "D2",
+      "front_end": "rootsift",
+      "matcher": "lightglue",
+      "resize": 2048,
+      "budget": 2048,
+      "config": "rootsift-lightglue-r2048-k2048",
+      "returncode": 0,
+      "seconds": 366.3663072999916
+    }
+  ]
+}

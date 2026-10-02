@@ -1,0 +1,26 @@
+{
+  "dataset": "D1_154_building",
+  "config": "superpoint-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 3964.092455200007,
+  "fused_points": 1796460,
+  "georeference_scale": 13.883902400686823,
+  "georeference_camera_rmse_m": 0.040293827845831534,
+  "cameras_used": 154,
+  "reference_grid_resolution_m": 0.0874000000000127,
+  "coverage_reference_fraction": 0.2685112717094644,
+  "coverage_model_fraction": 0.12789090780752388,
+  "compared_cells": 983348,
+  "compared_fraction_of_reference": 0.32475165125495375,
+  "height_difference_m": {
+    "count": 983348,
+    "mean": 0.008226065441185594,
+    "median": -0.0028203858342976673,
+    "std": 0.8408888626576781,
+    "nmad": 0.030682743654919634,
+    "rmse": 0.8409286702368796,
+    "p05": -0.09681396784955038,
+    "p95": 0.15556163131984635
+  },
+  "difference_raster": "results/surface/D1_154_building/superpoint-lightglue-r2048-k8192_difference.tif"
+}

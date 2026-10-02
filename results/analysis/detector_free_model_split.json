@@ -1,0 +1,8 @@
+{
+  "config": "loftr-dense-r1024-kall",
+  "larger": 125,
+  "smaller": 49,
+  "shared": 20,
+  "only_in_the_smaller": 29,
+  "union": 154
+}

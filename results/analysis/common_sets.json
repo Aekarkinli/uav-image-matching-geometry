@@ -1,0 +1,606 @@
+{
+  "operating|D1_154_building": [
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 1221.0,
+      "failed_pairs_pct": 6.143520908621579,
+      "mean_track_length": 9.834266546252097,
+      "reprojection_error_px": 0.7632092446486958,
+      "held_out_rmse_own_m": 0.03443511739099123,
+      "held_out_rmse_shared_m": 0.03536504336249516,
+      "relative_rotation_median_deg": 0.015355945078173528,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-nn_ratio-r2048-k8192",
+      "method": "RootSIFT, nearest neighbour",
+      "resolution": 2048,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 713.0,
+      "failed_pairs_pct": 4.9044914816726894,
+      "mean_track_length": 8.16140350877193,
+      "reprojection_error_px": 0.607208385808603,
+      "held_out_rmse_own_m": 0.033471194651787765,
+      "held_out_rmse_shared_m": 0.034140127957511084,
+      "relative_rotation_median_deg": 0.014971729375681602,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 1114.0,
+      "failed_pairs_pct": 5.524006195147135,
+      "mean_track_length": 9.291218178711771,
+      "reprojection_error_px": 0.7657150854356531,
+      "held_out_rmse_own_m": 0.03416667126889019,
+      "held_out_rmse_shared_m": 0.034995689361406804,
+      "relative_rotation_median_deg": 0.01430403243788433,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 807.0,
+      "failed_pairs_pct": 35.41559112028911,
+      "mean_track_length": 6.3133054457535405,
+      "reprojection_error_px": 1.3007461222724754,
+      "held_out_rmse_own_m": 0.04099586383743603,
+      "held_out_rmse_shared_m": 0.041825743672872596,
+      "relative_rotation_median_deg": 0.015524377339793935,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 1049.0,
+      "failed_pairs_pct": 36.344863190500774,
+      "mean_track_length": 7.074443548669775,
+      "reprojection_error_px": 0.8148098674681216,
+      "held_out_rmse_own_m": 0.13188850965935772,
+      "held_out_rmse_shared_m": 0.10888307554531154,
+      "relative_rotation_median_deg": 0.036931036187128764,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 720.0,
+      "failed_pairs_pct": 41.35260712441921,
+      "mean_track_length": 7.063473169254904,
+      "reprojection_error_px": 1.0216579852364247,
+      "held_out_rmse_own_m": 0.07640134575816561,
+      "held_out_rmse_shared_m": 0.05566127869167657,
+      "relative_rotation_median_deg": 0.01611187449902595,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "registered_images": 125,
+      "model_components": 2,
+      "images_in_largest_model": [
+        125,
+        49
+      ],
+      "cameras_own": 125,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 844.0,
+      "failed_pairs_pct": 24.832214765100673,
+      "mean_track_length": 5.080242859969825,
+      "reprojection_error_px": 1.0563455811353843,
+      "held_out_rmse_own_m": 3.8886576123423877,
+      "held_out_rmse_shared_m": 3.8886576123423877,
+      "relative_rotation_median_deg": 0.029897149677457498,
+      "relative_rotation_pairs": 1431
+    }
+  ],
+  "operating|D2_111_nadir": [
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-lightglue-r2048-k8192",
+      "method": "RootSIFT",
+      "resolution": 2048,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1430.0,
+      "failed_pairs_pct": 22.432210353327857,
+      "mean_track_length": 8.098332975602776,
+      "reprojection_error_px": 0.5195648887400279,
+      "held_out_rmse_own_m": 0.02695506704324843,
+      "held_out_rmse_shared_m": 0.02695506704324843,
+      "relative_rotation_median_deg": 0.008217185348756144,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-nn_ratio-r2048-k8192",
+      "method": "RootSIFT, nearest neighbour",
+      "resolution": 2048,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 969.0,
+      "failed_pairs_pct": 20.87099424815119,
+      "mean_track_length": 6.979233828762822,
+      "reprojection_error_px": 0.43801039820691,
+      "held_out_rmse_own_m": 0.029221939630150587,
+      "held_out_rmse_shared_m": 0.029221939630150587,
+      "relative_rotation_median_deg": 0.009754359623311929,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "doghardnet-lightglue-r2048-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 2048,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1443.0,
+      "failed_pairs_pct": 13.72226787181594,
+      "mean_track_length": 7.997742853537832,
+      "reprojection_error_px": 0.5359372025948279,
+      "held_out_rmse_own_m": 0.030284623925607424,
+      "held_out_rmse_shared_m": 0.030284623925607424,
+      "relative_rotation_median_deg": 0.008358033066489814,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "superpoint-lightglue-r2048-k8192",
+      "method": "SuperPoint",
+      "resolution": 2048,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1718.0,
+      "failed_pairs_pct": 16.598192276088746,
+      "mean_track_length": 7.139437719640766,
+      "reprojection_error_px": 1.306605043687086,
+      "held_out_rmse_own_m": 0.06459114471000016,
+      "held_out_rmse_shared_m": 0.06459114471000016,
+      "relative_rotation_median_deg": 0.01525641896073818,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "aliked-lightglue-r2048-k8192",
+      "method": "ALIKED",
+      "resolution": 2048,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 2343.0,
+      "failed_pairs_pct": 18.570254724732948,
+      "mean_track_length": 8.979349616555215,
+      "reprojection_error_px": 0.6408444574678445,
+      "held_out_rmse_own_m": 0.18289663653913354,
+      "held_out_rmse_shared_m": 0.18289663653913354,
+      "relative_rotation_median_deg": 0.025677064191544446,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "disk-lightglue-r2048-k8192",
+      "method": "DISK",
+      "resolution": 2048,
+      "registered_images": 111,
+      "model_components": 2,
+      "images_in_largest_model": [
+        111,
+        6
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 2045.0,
+      "failed_pairs_pct": 21.446179129005753,
+      "mean_track_length": 8.481904147638021,
+      "reprojection_error_px": 0.9697499307486673,
+      "held_out_rmse_own_m": 0.08037112946825194,
+      "held_out_rmse_shared_m": 0.08037112946825194,
+      "relative_rotation_median_deg": 0.019594251068960965,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 3,
+      "images_in_largest_model": [
+        111,
+        9,
+        5
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 3093.0,
+      "failed_pairs_pct": 10.928512736236648,
+      "mean_track_length": 5.36688515273843,
+      "reprojection_error_px": 1.0057141603391648,
+      "held_out_rmse_own_m": 0.0755508589442204,
+      "held_out_rmse_shared_m": 0.0755508589442204,
+      "relative_rotation_median_deg": 0.026945239901329823,
+      "relative_rotation_pairs": 1217
+    }
+  ],
+  "common1024|D1_154_building": [
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-lightglue-r1024-k8192",
+      "method": "RootSIFT",
+      "resolution": 1024,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 1305.0,
+      "failed_pairs_pct": 5.4723799690242645,
+      "mean_track_length": 10.484306210182835,
+      "reprojection_error_px": 0.9410883711341178,
+      "held_out_rmse_own_m": 0.038924326478218634,
+      "held_out_rmse_shared_m": 0.03901232211987166,
+      "relative_rotation_median_deg": 0.020720209286573393,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "rootsift-nn_ratio-r1024-k8192",
+      "method": "RootSIFT, nearest neighbour",
+      "resolution": 1024,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 892.0,
+      "failed_pairs_pct": 5.317501290655653,
+      "mean_track_length": 8.75686858454065,
+      "reprojection_error_px": 0.8274102492520081,
+      "held_out_rmse_own_m": 0.03930854211902395,
+      "held_out_rmse_shared_m": 0.039494763640386205,
+      "relative_rotation_median_deg": 0.02045450478614942,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "doghardnet-lightglue-r1024-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 1024,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 1060.0,
+      "failed_pairs_pct": 8.415074858027879,
+      "mean_track_length": 9.410374893091324,
+      "reprojection_error_px": 0.9043893437050456,
+      "held_out_rmse_own_m": 0.040812483341734894,
+      "held_out_rmse_shared_m": 0.040643803253880416,
+      "relative_rotation_median_deg": 0.02034255892810656,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "superpoint-lightglue-r1024-k8192",
+      "method": "SuperPoint",
+      "resolution": 1024,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 168.0,
+      "failed_pairs_pct": 35.82860092927207,
+      "mean_track_length": 4.447772540672039,
+      "reprojection_error_px": 1.4124126110356412,
+      "held_out_rmse_own_m": 0.045410248470356386,
+      "held_out_rmse_shared_m": 0.04386386336425823,
+      "relative_rotation_median_deg": 0.0340293608885761,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "aliked-lightglue-r1024-k8192",
+      "method": "ALIKED",
+      "resolution": 1024,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 589.0,
+      "failed_pairs_pct": 36.499741868869386,
+      "mean_track_length": 7.183090671263187,
+      "reprojection_error_px": 1.1710886549403274,
+      "held_out_rmse_own_m": 0.26179667950493046,
+      "held_out_rmse_shared_m": 0.22789760856730643,
+      "relative_rotation_median_deg": 0.06518336363655601,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "disk-lightglue-r1024-k8192",
+      "method": "DISK",
+      "resolution": 1024,
+      "registered_images": 154,
+      "model_components": 1,
+      "images_in_largest_model": [
+        154
+      ],
+      "cameras_own": 154,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 697.0,
+      "failed_pairs_pct": 38.77129581827569,
+      "mean_track_length": 6.449683525545185,
+      "reprojection_error_px": 1.557481475013432,
+      "held_out_rmse_own_m": 0.16988511940640472,
+      "held_out_rmse_shared_m": 0.13245317724795228,
+      "relative_rotation_median_deg": 0.028957434837929445,
+      "relative_rotation_pairs": 1937
+    },
+    {
+      "dataset": "D1_154_building",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "registered_images": 125,
+      "model_components": 2,
+      "images_in_largest_model": [
+        125,
+        49
+      ],
+      "cameras_own": 125,
+      "cameras_shared": 125,
+      "median_verified_correspondences": 844.0,
+      "failed_pairs_pct": 24.832214765100673,
+      "mean_track_length": 5.080242859969825,
+      "reprojection_error_px": 1.0563455811353843,
+      "held_out_rmse_own_m": 3.8886576123423877,
+      "held_out_rmse_shared_m": 3.8886576123423877,
+      "relative_rotation_median_deg": 0.029897149677457498,
+      "relative_rotation_pairs": 1431
+    }
+  ],
+  "common1024|D2_111_nadir": [
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-lightglue-r1024-k8192",
+      "method": "RootSIFT",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1463.0,
+      "failed_pairs_pct": 21.03533278553821,
+      "mean_track_length": 8.011077542799597,
+      "reprojection_error_px": 0.6940378542361895,
+      "held_out_rmse_own_m": 0.04915730583610563,
+      "held_out_rmse_shared_m": 0.04915730583610563,
+      "relative_rotation_median_deg": 0.012968626845550937,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "rootsift-nn_ratio-r1024-k8192",
+      "method": "RootSIFT, nearest neighbour",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1127.0,
+      "failed_pairs_pct": 20.9531635168447,
+      "mean_track_length": 7.289559893665584,
+      "reprojection_error_px": 0.6257065227965567,
+      "held_out_rmse_own_m": 0.046139470176142235,
+      "held_out_rmse_shared_m": 0.046139470176142235,
+      "relative_rotation_median_deg": 0.018235779028252685,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "doghardnet-lightglue-r1024-k8192",
+      "method": "DoG + HardNet",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1471.0,
+      "failed_pairs_pct": 17.748562037797864,
+      "mean_track_length": 7.9105096382360705,
+      "reprojection_error_px": 0.7005949703607993,
+      "held_out_rmse_own_m": 0.046323047496970984,
+      "held_out_rmse_shared_m": 0.046323047496970984,
+      "relative_rotation_median_deg": 0.012664414103185955,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "superpoint-lightglue-r1024-k8192",
+      "method": "SuperPoint",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 411.0,
+      "failed_pairs_pct": 20.624486442070666,
+      "mean_track_length": 5.006458357532814,
+      "reprojection_error_px": 1.4865142457911913,
+      "held_out_rmse_own_m": 0.11693344415148811,
+      "held_out_rmse_shared_m": 0.11693344415148811,
+      "relative_rotation_median_deg": 0.045949821482625906,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "aliked-lightglue-r1024-k8192",
+      "method": "ALIKED",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 1,
+      "images_in_largest_model": [
+        111
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1231.0,
+      "failed_pairs_pct": 22.103533278553822,
+      "mean_track_length": 9.383740950890237,
+      "reprojection_error_px": 1.0567800319737917,
+      "held_out_rmse_own_m": 0.131366521811903,
+      "held_out_rmse_shared_m": 0.131366521811903,
+      "relative_rotation_median_deg": 0.03772743435087973,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "disk-lightglue-r1024-k8192",
+      "method": "DISK",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 4,
+      "images_in_largest_model": [
+        111,
+        8,
+        6,
+        4
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 1655.0,
+      "failed_pairs_pct": 19.884963023829087,
+      "mean_track_length": 7.883365957058388,
+      "reprojection_error_px": 1.6146012209510714,
+      "held_out_rmse_own_m": 0.10365644590227961,
+      "held_out_rmse_shared_m": 0.10365644590227961,
+      "relative_rotation_median_deg": 0.02567224785512101,
+      "relative_rotation_pairs": 1217
+    },
+    {
+      "dataset": "D2_111_nadir",
+      "config": "loftr-dense-r1024-kall",
+      "method": "LoFTR",
+      "resolution": 1024,
+      "registered_images": 111,
+      "model_components": 3,
+      "images_in_largest_model": [
+        111,
+        9,
+        5
+      ],
+      "cameras_own": 111,
+      "cameras_shared": 111,
+      "median_verified_correspondences": 3093.0,
+      "failed_pairs_pct": 10.928512736236648,
+      "mean_track_length": 5.36688515273843,
+      "reprojection_error_px": 1.0057141603391648,
+      "held_out_rmse_own_m": 0.0755508589442204,
+      "held_out_rmse_shared_m": 0.0755508589442204,
+      "relative_rotation_median_deg": 0.026945239901329823,
+      "relative_rotation_pairs": 1217
+    }
+  ]
+}

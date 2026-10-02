@@ -1,0 +1,43 @@
+{
+  "config": "superpoint-lightglue-r1024-k8192",
+  "dataset": "D2_111_nadir",
+  "front_end": "superpoint",
+  "matcher": "lightglue",
+  "working_resolution": 1024,
+  "keypoint_budget": 8192,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1217,
+  "extraction": {
+    "images": 111,
+    "seconds_total": 9.93018810000649,
+    "seconds_per_image_median": 0.08103380000102334,
+    "keypoints_median": 3058.0,
+    "keypoints_mean": 2993.153153153153,
+    "keypoints_min": 1953,
+    "keypoints_max": 4384,
+    "peak_gpu_mb": 425.16796875,
+    "reused": false
+  },
+  "matching_seconds_total": 70.25539060000301,
+  "matching_seconds_per_pair_median": 0.03265319999627536,
+  "matching_peak_gpu_mb": 402.14111328125,
+  "median_verified_inliers": 411.0,
+  "mean_verified_inliers": 437.39276910435495,
+  "failed_pair_fraction": 0.20624486442070666,
+  "features_path": "workspace/features/D2_111_nadir/superpoint-r1024-k8192.h5",
+  "matches_path": "workspace/matches/D2_111_nadir/superpoint-lightglue-r1024-k8192.h5",
+  "metrics_path": "results/pairwise/D2_111_nadir/superpoint-lightglue-r1024-k8192.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

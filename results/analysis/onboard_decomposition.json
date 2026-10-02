@@ -1,0 +1,42 @@
+{
+  "D1_154_building": {
+    "cameras": 154,
+    "rms_3d_mm": 40.96896361191434,
+    "constant_offset_mm": [
+      -0.32,
+      0.09,
+      -2.9
+    ],
+    "share_constant": 0.005078533999037879,
+    "share_tilt_group": 0.007491779793063472,
+    "share_local": 0.9874296862078987,
+    "tilted_cameras": 123,
+    "share_of_squared_difference_from_tilted": 0.8575699028272703,
+    "median_difference_tilted_mm": 38.188769530428964,
+    "median_difference_nadir_mm": 30.320910100587486,
+    "configurations_compared": 36,
+    "spearman_reference_vs_onboard": 0.9065637065637066,
+    "spearman_reference_vs_onboard_nadir_only": 0.9927927927927926,
+    "nadir_cameras_used": 31
+  },
+  "D2_111_nadir": {
+    "cameras": 111,
+    "rms_3d_mm": 207.54087130620988,
+    "constant_offset_mm": [
+      -0.0,
+      -0.0,
+      0.0
+    ],
+    "share_constant": 1.3184008174246813e-11,
+    "share_tilt_group": 0.8506306029709619,
+    "share_local": 0.14936939701585425,
+    "tilted_cameras": 9,
+    "share_of_squared_difference_from_tilted": 0.7836348574024522,
+    "median_difference_tilted_mm": 643.190322509884,
+    "median_difference_nadir_mm": 87.46393288697405,
+    "configurations_compared": 36,
+    "spearman_reference_vs_onboard": -0.6895752895752897,
+    "spearman_reference_vs_onboard_nadir_only": 0.18635778635778635,
+    "nadir_cameras_used": 102
+  }
+}

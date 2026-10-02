@@ -1,0 +1,26 @@
+{
+  "dataset": "D1_154_building",
+  "config": "disk-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 3823.320877399994,
+  "fused_points": 1958621,
+  "georeference_scale": 13.901334913088611,
+  "georeference_camera_rmse_m": 0.07482764650541607,
+  "cameras_used": 154,
+  "reference_grid_resolution_m": 0.0874000000000127,
+  "coverage_reference_fraction": 0.2685112717094644,
+  "coverage_model_fraction": 0.13762346596974334,
+  "compared_cells": 1080835,
+  "compared_fraction_of_reference": 0.3569468295904888,
+  "height_difference_m": {
+    "count": 1080835,
+    "mean": 0.0813099961892814,
+    "median": 0.05657142781069524,
+    "std": 0.7944163942681229,
+    "nmad": 0.03530224272009309,
+    "rmse": 0.7985663022343573,
+    "p05": -0.03246224944380174,
+    "p95": 0.23717217405562613
+  },
+  "difference_raster": "results/surface/D1_154_building/disk-lightglue-r2048-k8192_difference.tif"
+}

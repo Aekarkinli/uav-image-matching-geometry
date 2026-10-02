@@ -1,0 +1,48 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "superpoint-lightglue-r2048-k8192",
+  "run_id": "superpoint-lightglue-r2048-k8192__seed3",
+  "seed": 3,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 653.644208999991,
+  "model_component_count": 1,
+  "component_registered_images": [
+    111
+  ],
+  "registered_images": 111,
+  "total_images": 111,
+  "registration_rate": 1.0,
+  "sparse_points": 102436,
+  "observations": 731351,
+  "mean_track_length": 7.139589597407162,
+  "median_track_length": 5.0,
+  "mean_reprojection_error_px": 1.3063005433216466,
+  "median_reprojection_error_px": 1.3184558466047984,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3701.7276207372956,
+        3701.650353746659,
+        2707.1876177161375,
+        1830.929710687621,
+        -0.012032008515181712,
+        0.00995661929992445,
+        -0.0013591882235853261,
+        -0.0019369729176630123
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "D2_111_nadir",
+  "config": "rootsift-lightglue-r2048-k8192",
+  "dense_max_image_size": 1200,
+  "dense_seconds": 2429.4178204000054,
+  "fused_points": 1917124,
+  "georeference_scale": 30.110469203983996,
+  "georeference_camera_rmse_m": 0.025986241475904778,
+  "cameras_used": 111,
+  "reference_grid_resolution_m": 0.10409999999998702,
+  "coverage_reference_fraction": 0.2674809390086672,
+  "coverage_model_fraction": 0.09410364131677042,
+  "compared_cells": 975116,
+  "compared_fraction_of_reference": 0.18662600043560026,
+  "height_difference_m": {
+    "count": 975116,
+    "mean": -0.04951298915515103,
+    "median": -0.0559072234799487,
+    "std": 0.9589613555379569,
+    "nmad": 0.030130579555549843,
+    "rmse": 0.9602382383741708,
+    "p05": -0.13559991278896177,
+    "p95": 0.027692899391411174
+  },
+  "difference_raster": "results/surface/D2_111_nadir/rootsift-lightglue-r2048-k8192_difference.tif"
+}

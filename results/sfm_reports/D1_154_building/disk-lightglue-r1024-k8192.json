@@ -1,0 +1,48 @@
+{
+  "dataset": "D1_154_building",
+  "config": "disk-lightglue-r1024-k8192",
+  "run_id": "disk-lightglue-r1024-k8192",
+  "seed": 0,
+  "camera_model": "OPENCV",
+  "camera_mode": "SINGLE",
+  "mapper_options": {
+    "ba_refine_focal_length": true,
+    "ba_refine_principal_point": true,
+    "ba_refine_extra_params": true,
+    "min_num_matches": 15,
+    "multiple_models": true,
+    "min_model_size": 3
+  },
+  "reconstruction_seconds": 564.780514099999,
+  "model_component_count": 1,
+  "component_registered_images": [
+    154
+  ],
+  "registered_images": 154,
+  "total_images": 154,
+  "registration_rate": 1.0,
+  "sparse_points": 151829,
+  "observations": 979249,
+  "mean_track_length": 6.449683525545185,
+  "median_track_length": 5.0,
+  "mean_reprojection_error_px": 1.557481475013432,
+  "median_reprojection_error_px": 1.6358624578677279,
+  "cameras": {
+    "1": {
+      "model": "OPENCV",
+      "width": 5472,
+      "height": 3648,
+      "params": [
+        3721.292935997853,
+        3722.524435179952,
+        2708.3161265799517,
+        1817.040920015554,
+        -0.011134264360289869,
+        0.00880315456161765,
+        -0.0015295931695305722,
+        -0.0020275943210034115
+      ]
+    }
+  },
+  "pycolmap": "4.0.4"
+}

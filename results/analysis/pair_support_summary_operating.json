@@ -1,0 +1,1596 @@
+{
+  "D1_154_building": {
+    "rootsift-lightglue-r2048-k8192": {
+      "method": "RootSIFT",
+      "pairs": 1937,
+      "accepted_pct": 93.85647909137842,
+      "failed_pct": 6.14352090862158,
+      "failed_low": 3.721615983310599,
+      "failed_high": 8.862396343387429,
+      "supportable_pct": 93.75322663913268,
+      "precision": 0.9988998899889989,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 266.2408044328248,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 61.06519484909151,
+        "unreached_share": 1.0
+      },
+      "half_angle_unconstrained_fit_deg": 263.54859164484134,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 7.868525896414343,
+            "failed_low": 4.421354278827446,
+            "failed_high": 11.988695697577278,
+            "unsupported_of_accepted_pct": 0.10810810810810811,
+            "supportable_pct": 92.03187250996015
+          },
+          {
+            "count": 59,
+            "failed_pct": 5.084745762711864,
+            "failed_low": 0.0,
+            "failed_high": 19.35483870967742,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 94.91525423728814
+          },
+          {
+            "count": 125,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 2.98164567965626,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 452,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 0.8427488847002994,
+            "unsupported_of_accepted_pct": 0.22123893805309736,
+            "supportable_pct": 99.77876106194691
+          },
+          {
+            "count": 225,
+            "failed_pct": 0.0,
+            "failed_low": 1.734723475976807e-16,
+            "failed_high": 1.6787157579740746,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 72,
+            "failed_pct": 51.388888888888886,
+            "failed_low": 29.82299498746867,
+            "failed_high": 71.15530303030305,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 48.61111111111111
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 5.7542768273716955,
+            "failed_low": 2.213876634034479,
+            "failed_high": 10.157850747696585,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 94.2457231726283
+          },
+          {
+            "count": 605,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 0.6309687117306044,
+            "unsupported_of_accepted_pct": 0.1652892561983471,
+            "supportable_pct": 99.83471074380165
+          },
+          {
+            "count": 406,
+            "failed_pct": 0.0,
+            "failed_low": 8.673617379884035e-17,
+            "failed_high": 0.9373377421911293,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 181,
+            "failed_pct": 11.049723756906078,
+            "failed_low": 2.897515527950311,
+            "failed_high": 22.41442388561817,
+            "unsupported_of_accepted_pct": 0.6211180124223602,
+            "supportable_pct": 88.39779005524862
+          },
+          {
+            "count": 102,
+            "failed_pct": 60.78431372549019,
+            "failed_low": 40.69585755813954,
+            "failed_high": 79.38164004092232,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 39.21568627450981
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    "rootsift-nn_ratio-r2048-k8192": {
+      "method": "RootSIFT, nearest neighbour",
+      "pairs": 1937,
+      "accepted_pct": 95.0955085183273,
+      "failed_pct": 4.90449148167269,
+      "failed_low": 2.860024788032084,
+      "failed_high": 7.332507520013326,
+      "supportable_pct": 94.83737738771296,
+      "precision": 0.99728555917481,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 167.50405742805455,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 61.06519484909151,
+        "unreached_share": 1.0
+      },
+      "half_angle_unconstrained_fit_deg": 149.7579700362196,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 5.677290836653387,
+            "failed_low": 2.801113183862757,
+            "failed_high": 9.680840083131535,
+            "unsupported_of_accepted_pct": 0.5279831045406547,
+            "supportable_pct": 93.82470119521913
+          },
+          {
+            "count": 59,
+            "failed_pct": 1.694915254237288,
+            "failed_low": 0.0,
+            "failed_high": 10.526315789473683,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.30508474576271
+          },
+          {
+            "count": 125,
+            "failed_pct": 0.8,
+            "failed_low": 0.0,
+            "failed_high": 5.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 99.2
+          },
+          {
+            "count": 452,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 0.8427488847002994,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 225,
+            "failed_pct": 0.0,
+            "failed_low": 1.734723475976807e-16,
+            "failed_high": 1.6787157579740746,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 72,
+            "failed_pct": 50.0,
+            "failed_low": 28.357587064676615,
+            "failed_high": 69.76744186046511,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 50.0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 5.598755832037325,
+            "failed_low": 2.1163089649005142,
+            "failed_high": 10.083021509139366,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 94.40124416796267
+          },
+          {
+            "count": 605,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 0.6309687117306044,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 406,
+            "failed_pct": 0.0,
+            "failed_low": 8.673617379884035e-17,
+            "failed_high": 0.9373377421911293,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 181,
+            "failed_pct": 9.392265193370166,
+            "failed_low": 1.6666666666666667,
+            "failed_high": 20.253164556962027,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 90.60773480662984
+          },
+          {
+            "count": 102,
+            "failed_pct": 41.1764705882353,
+            "failed_low": 22.640947888589398,
+            "failed_high": 62.001724137931035,
+            "unsupported_of_accepted_pct": 8.333333333333334,
+            "supportable_pct": 53.92156862745098
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    "doghardnet-lightglue-r2048-k8192": {
+      "method": "DoG + HardNet",
+      "pairs": 1937,
+      "accepted_pct": 94.47599380485286,
+      "failed_pct": 5.524006195147136,
+      "failed_low": 3.2891067943117385,
+      "failed_high": 8.012266927363857,
+      "supportable_pct": 93.54672173464121,
+      "precision": 0.9901639344262295,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 72.77132827040755,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 61.06519484909151,
+        "unreached_share": 0.96
+      },
+      "half_angle_unconstrained_fit_deg": 78.90950604668298,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 4.083665338645418,
+            "failed_low": 1.4464006998777204,
+            "failed_high": 7.9232520988409645,
+            "unsupported_of_accepted_pct": 0.4153686396677051,
+            "supportable_pct": 95.5179282868526
+          },
+          {
+            "count": 59,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 6.113147978409207,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 125,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 2.98164567965626,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 452,
+            "failed_pct": 1.5486725663716814,
+            "failed_low": 0.0,
+            "failed_high": 3.8295091363857456,
+            "unsupported_of_accepted_pct": 0.898876404494382,
+            "supportable_pct": 97.56637168141593
+          },
+          {
+            "count": 225,
+            "failed_pct": 6.222222222222222,
+            "failed_low": 0.9170179353665594,
+            "failed_high": 14.584046803652972,
+            "unsupported_of_accepted_pct": 0.9478672985781991,
+            "supportable_pct": 92.88888888888889
+          },
+          {
+            "count": 72,
+            "failed_pct": 62.5,
+            "failed_low": 39.64593596059114,
+            "failed_high": 82.35492845786963,
+            "unsupported_of_accepted_pct": 29.62962962962963,
+            "supportable_pct": 26.38888888888889
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 6.687402799377916,
+            "failed_low": 2.8614358599261305,
+            "failed_high": 11.179389853883057,
+            "unsupported_of_accepted_pct": 1.3333333333333333,
+            "supportable_pct": 92.06842923794713
+          },
+          {
+            "count": 605,
+            "failed_pct": 1.1570247933884297,
+            "failed_low": 0.0,
+            "failed_high": 3.087877802093809,
+            "unsupported_of_accepted_pct": 0.5016722408026756,
+            "supportable_pct": 98.34710743801654
+          },
+          {
+            "count": 406,
+            "failed_pct": 1.9704433497536946,
+            "failed_low": 0.0,
+            "failed_high": 5.070780615898784,
+            "unsupported_of_accepted_pct": 0.5025125628140703,
+            "supportable_pct": 97.53694581280789
+          },
+          {
+            "count": 181,
+            "failed_pct": 12.707182320441989,
+            "failed_low": 3.7433155080213902,
+            "failed_high": 24.44557823129252,
+            "unsupported_of_accepted_pct": 1.2658227848101267,
+            "supportable_pct": 86.1878453038674
+          },
+          {
+            "count": 102,
+            "failed_pct": 25.49019607843137,
+            "failed_low": 8.409267912772586,
+            "failed_high": 46.77456348031962,
+            "unsupported_of_accepted_pct": 3.9473684210526314,
+            "supportable_pct": 71.56862745098039
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    "superpoint-lightglue-r2048-k8192": {
+      "method": "SuperPoint",
+      "pairs": 1937,
+      "accepted_pct": 64.58440887971089,
+      "failed_pct": 35.4155911202891,
+      "failed_low": 28.976264606809636,
+      "failed_high": 41.70091714075404,
+      "supportable_pct": 63.397005678884874,
+      "precision": 0.9816147082334132,
+      "recall": 1.0,
+      "half_angle_accepted_deg": 23.933314358044782,
+      "half_angle_supported_deg": 23.093035192968063,
+      "half_angle_reached": true,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": true,
+        "ceiling_deg": 61.06519484909151,
+        "low_deg": 20.569041045357032,
+        "high_deg": 27.39178168801273,
+        "unreached_share": 0.0
+      },
+      "half_angle_unconstrained_fit_deg": 23.933314358044782,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 8.167330677290837,
+            "failed_low": 3.9810063835960925,
+            "failed_high": 13.749781352491022,
+            "unsupported_of_accepted_pct": 1.6268980477223427,
+            "supportable_pct": 90.33864541832669
+          },
+          {
+            "count": 59,
+            "failed_pct": 1.694915254237288,
+            "failed_low": 0.0,
+            "failed_high": 9.090909090909092,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.30508474576271
+          },
+          {
+            "count": 125,
+            "failed_pct": 2.4,
+            "failed_low": 0.0,
+            "failed_high": 8.92923773987207,
+            "unsupported_of_accepted_pct": 0.819672131147541,
+            "supportable_pct": 96.8
+          },
+          {
+            "count": 452,
+            "failed_pct": 67.47787610619469,
+            "failed_low": 54.85758481978784,
+            "failed_high": 79.26639613324326,
+            "unsupported_of_accepted_pct": 3.401360544217687,
+            "supportable_pct": 31.41592920353982
+          },
+          {
+            "count": 225,
+            "failed_pct": 100.0,
+            "failed_low": 98.32128424202591,
+            "failed_high": 99.99999999999997,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 0.0
+          },
+          {
+            "count": 72,
+            "failed_pct": 97.22222222222223,
+            "failed_low": 85.93694982394366,
+            "failed_high": 100.0,
+            "unsupported_of_accepted_pct": 100.0,
+            "supportable_pct": 0.0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 53.965785381026436,
+            "failed_low": 43.859108598962194,
+            "failed_high": 62.11421011110381,
+            "unsupported_of_accepted_pct": 1.6891891891891893,
+            "supportable_pct": 45.25660964230171
+          },
+          {
+            "count": 605,
+            "failed_pct": 26.115702479338843,
+            "failed_low": 18.210049037282758,
+            "failed_high": 34.25128349231423,
+            "unsupported_of_accepted_pct": 0.22371364653243847,
+            "supportable_pct": 73.71900826446281
+          },
+          {
+            "count": 406,
+            "failed_pct": 20.935960591133004,
+            "failed_low": 12.527265100671142,
+            "failed_high": 30.54924780778204,
+            "unsupported_of_accepted_pct": 0.3115264797507788,
+            "supportable_pct": 78.81773399014779
+          },
+          {
+            "count": 181,
+            "failed_pct": 23.756906077348066,
+            "failed_low": 11.827201884740848,
+            "failed_high": 38.54181215083799,
+            "unsupported_of_accepted_pct": 1.4492753623188406,
+            "supportable_pct": 75.13812154696133
+          },
+          {
+            "count": 102,
+            "failed_pct": 51.96078431372549,
+            "failed_low": 31.914893617021278,
+            "failed_high": 71.2873579024569,
+            "unsupported_of_accepted_pct": 28.571428571428573,
+            "supportable_pct": 34.31372549019608
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    "aliked-lightglue-r2048-k8192": {
+      "method": "ALIKED",
+      "pairs": 1937,
+      "accepted_pct": 63.655136809499226,
+      "failed_pct": 36.344863190500774,
+      "failed_low": 30.307494646680944,
+      "failed_high": 42.55574433677181,
+      "supportable_pct": 63.03562209602478,
+      "precision": 0.9902676399026764,
+      "recall": 1.0,
+      "half_angle_accepted_deg": 23.03483972810458,
+      "half_angle_supported_deg": 22.558145573247387,
+      "half_angle_reached": true,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": true,
+        "ceiling_deg": 61.06519484909151,
+        "low_deg": 19.25083242664091,
+        "high_deg": 26.290906438499004,
+        "unreached_share": 0.0
+      },
+      "half_angle_unconstrained_fit_deg": 23.03483972810458,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 7.47011952191235,
+            "failed_low": 3.412241490736751,
+            "failed_high": 13.454477174816718,
+            "unsupported_of_accepted_pct": 0.43057050592034446,
+            "supportable_pct": 92.13147410358566
+          },
+          {
+            "count": 59,
+            "failed_pct": 1.694915254237288,
+            "failed_low": 0.0,
+            "failed_high": 10.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.30508474576271
+          },
+          {
+            "count": 125,
+            "failed_pct": 4.8,
+            "failed_low": 0.0,
+            "failed_high": 11.907142857142865,
+            "unsupported_of_accepted_pct": 0.8403361344537815,
+            "supportable_pct": 94.39999999999999
+          },
+          {
+            "count": 452,
+            "failed_pct": 71.90265486725664,
+            "failed_low": 59.481196901549225,
+            "failed_high": 82.52968189028972,
+            "unsupported_of_accepted_pct": 5.511811023622047,
+            "supportable_pct": 26.548672566371685
+          },
+          {
+            "count": 225,
+            "failed_pct": 100.0,
+            "failed_low": 98.32128424202591,
+            "failed_high": 99.99999999999997,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 0.0
+          },
+          {
+            "count": 72,
+            "failed_pct": 100.0,
+            "failed_low": 94.93470601886035,
+            "failed_high": 100.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 0.0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 55.2099533437014,
+            "failed_low": 45.74811035525321,
+            "failed_high": 63.172835191942035,
+            "unsupported_of_accepted_pct": 1.7361111111111112,
+            "supportable_pct": 44.012441679626754
+          },
+          {
+            "count": 605,
+            "failed_pct": 27.60330578512397,
+            "failed_low": 19.305497229984013,
+            "failed_high": 36.11801585101736,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 72.39669421487604
+          },
+          {
+            "count": 406,
+            "failed_pct": 22.167487684729064,
+            "failed_low": 13.528525868178596,
+            "failed_high": 32.152499413970936,
+            "unsupported_of_accepted_pct": 0.6329113924050633,
+            "supportable_pct": 77.33990147783251
+          },
+          {
+            "count": 181,
+            "failed_pct": 25.414364640883978,
+            "failed_low": 12.358780975835,
+            "failed_high": 40.23686679174484,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 74.58563535911603
+          },
+          {
+            "count": 102,
+            "failed_pct": 45.09803921568628,
+            "failed_low": 25.286751361161524,
+            "failed_high": 66.66666666666666,
+            "unsupported_of_accepted_pct": 8.928571428571429,
+            "supportable_pct": 50.0
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    "disk-lightglue-r2048-k8192": {
+      "method": "DISK",
+      "pairs": 1937,
+      "accepted_pct": 58.64739287558079,
+      "failed_pct": 41.35260712441921,
+      "failed_low": 35.05013199512722,
+      "failed_high": 47.19106705292007,
+      "supportable_pct": 58.38926174496645,
+      "precision": 0.9955985915492958,
+      "recall": 1.0,
+      "half_angle_accepted_deg": 19.175949165154364,
+      "half_angle_supported_deg": 19.00710231668075,
+      "half_angle_reached": true,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": true,
+        "ceiling_deg": 61.06519484909151,
+        "low_deg": 16.443558964330872,
+        "high_deg": 22.273119223086017,
+        "unreached_share": 0.0
+      },
+      "half_angle_unconstrained_fit_deg": 19.175949165154364,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 9.9601593625498,
+            "failed_low": 5.4619518787182155,
+            "failed_high": 16.004258055101232,
+            "unsupported_of_accepted_pct": 0.4424778761061947,
+            "supportable_pct": 89.64143426294821
+          },
+          {
+            "count": 59,
+            "failed_pct": 3.389830508474576,
+            "failed_low": 0.0,
+            "failed_high": 13.043478260869565,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.61016949152543
+          },
+          {
+            "count": 125,
+            "failed_pct": 47.2,
+            "failed_low": 11.538461538461538,
+            "failed_high": 76.96713483146068,
+            "unsupported_of_accepted_pct": 1.5151515151515151,
+            "supportable_pct": 52.0
+          },
+          {
+            "count": 452,
+            "failed_pct": 75.88495575221239,
+            "failed_low": 63.99799554565702,
+            "failed_high": 86.20889713371163,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 24.11504424778761
+          },
+          {
+            "count": 225,
+            "failed_pct": 100.0,
+            "failed_low": 98.32128424202591,
+            "failed_high": 99.99999999999997,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 0.0
+          },
+          {
+            "count": 72,
+            "failed_pct": 100.0,
+            "failed_low": 94.93470601886035,
+            "failed_high": 100.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 0.0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 57.69828926905132,
+            "failed_low": 48.38676894833465,
+            "failed_high": 65.1772621964062,
+            "unsupported_of_accepted_pct": 0.36764705882352944,
+            "supportable_pct": 42.14618973561431
+          },
+          {
+            "count": 605,
+            "failed_pct": 33.22314049586777,
+            "failed_low": 24.1364894475839,
+            "failed_high": 42.48845406631192,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 66.77685950413223
+          },
+          {
+            "count": 406,
+            "failed_pct": 25.61576354679803,
+            "failed_low": 16.37410510581386,
+            "failed_high": 35.82109505946205,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 74.38423645320196
+          },
+          {
+            "count": 181,
+            "failed_pct": 28.176795580110497,
+            "failed_low": 14.285714285714285,
+            "failed_high": 44.57905150011812,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 71.8232044198895
+          },
+          {
+            "count": 102,
+            "failed_pct": 72.54901960784314,
+            "failed_low": 52.251501501501494,
+            "failed_high": 89.25693624557262,
+            "unsupported_of_accepted_pct": 14.285714285714286,
+            "supportable_pct": 23.52941176470588
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    },
+    "loftr-dense-r1024-kall": {
+      "method": "LoFTR",
+      "pairs": 1937,
+      "accepted_pct": 75.16778523489933,
+      "failed_pct": 24.83221476510067,
+      "failed_low": 19.711174242424242,
+      "failed_high": 29.813759086843135,
+      "supportable_pct": 60.557563242127,
+      "precision": 0.8056318681318682,
+      "recall": 1.0,
+      "half_angle_accepted_deg": 36.62920124427005,
+      "half_angle_supported_deg": 20.672628226447824,
+      "half_angle_reached": true,
+      "half_angle_ceiling_deg": 61.06519484909151,
+      "half_angle_interval": {
+        "reached": true,
+        "ceiling_deg": 61.06519484909151,
+        "low_deg": 31.541226037268242,
+        "high_deg": 43.63566802170028,
+        "unreached_share": 0.0
+      },
+      "half_angle_unconstrained_fit_deg": 36.62920124427005,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1004,
+            "failed_pct": 6.872509960159363,
+            "failed_low": 3.142202167373419,
+            "failed_high": 12.077762600442787,
+            "unsupported_of_accepted_pct": 2.6737967914438503,
+            "supportable_pct": 90.63745019920319
+          },
+          {
+            "count": 59,
+            "failed_pct": 1.694915254237288,
+            "failed_low": 0.0,
+            "failed_high": 11.11111111111111,
+            "unsupported_of_accepted_pct": 1.7241379310344827,
+            "supportable_pct": 96.61016949152543
+          },
+          {
+            "count": 125,
+            "failed_pct": 9.6,
+            "failed_low": 0.0,
+            "failed_high": 20.694776374189114,
+            "unsupported_of_accepted_pct": 14.15929203539823,
+            "supportable_pct": 77.60000000000001
+          },
+          {
+            "count": 452,
+            "failed_pct": 51.10619469026549,
+            "failed_low": 40.08911334804192,
+            "failed_high": 61.188177746346064,
+            "unsupported_of_accepted_pct": 50.678733031674206,
+            "supportable_pct": 24.11504424778761
+          },
+          {
+            "count": 225,
+            "failed_pct": 54.22222222222222,
+            "failed_low": 40.0,
+            "failed_high": 68.0753670961942,
+            "unsupported_of_accepted_pct": 100.0,
+            "supportable_pct": 0.0
+          },
+          {
+            "count": 72,
+            "failed_pct": 63.888888888888886,
+            "failed_low": 41.662234042553195,
+            "failed_high": 83.82471537001898,
+            "unsupported_of_accepted_pct": 100.0,
+            "supportable_pct": 0.0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 643,
+            "failed_pct": 34.3701399688958,
+            "failed_low": 26.39638767531538,
+            "failed_high": 42.16160776964146,
+            "unsupported_of_accepted_pct": 34.59715639810427,
+            "supportable_pct": 42.92379471228615
+          },
+          {
+            "count": 605,
+            "failed_pct": 19.834710743801654,
+            "failed_low": 13.179365778462895,
+            "failed_high": 26.991919796498575,
+            "unsupported_of_accepted_pct": 13.608247422680412,
+            "supportable_pct": 69.25619834710743
+          },
+          {
+            "count": 406,
+            "failed_pct": 16.25615763546798,
+            "failed_low": 8.717696629213483,
+            "failed_high": 25.06463357264118,
+            "unsupported_of_accepted_pct": 9.117647058823529,
+            "supportable_pct": 76.10837438423646
+          },
+          {
+            "count": 181,
+            "failed_pct": 16.022099447513813,
+            "failed_low": 6.8289911308204,
+            "failed_high": 27.421370967741943,
+            "unsupported_of_accepted_pct": 13.157894736842104,
+            "supportable_pct": 72.92817679558011
+          },
+          {
+            "count": 102,
+            "failed_pct": 44.11764705882353,
+            "failed_low": 24.74099529082347,
+            "failed_high": 63.96396396396396,
+            "unsupported_of_accepted_pct": 35.08771929824562,
+            "supportable_pct": 36.27450980392157
+          },
+          {
+            "count": 0
+          }
+        ]
+      }
+    }
+  },
+  "D2_111_nadir": {
+    "rootsift-lightglue-r2048-k8192": {
+      "method": "RootSIFT",
+      "pairs": 1217,
+      "accepted_pct": 77.56778964667215,
+      "failed_pct": 22.432210353327854,
+      "failed_low": 18.765422198461494,
+      "failed_high": 26.28270541339849,
+      "supportable_pct": 76.82826622843056,
+      "precision": 0.9904661016949152,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 54.60126616346514,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 0.74
+      },
+      "half_angle_unconstrained_fit_deg": 54.1364543702894,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 20.2195791399817,
+            "failed_low": 16.700158009123445,
+            "failed_high": 23.656013356389003,
+            "unsupported_of_accepted_pct": 1.0321100917431192,
+            "supportable_pct": 78.95699908508692
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 44.067796610169495,
+            "failed_low": 25.960648148148152,
+            "failed_high": 60.169883866917765,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 55.932203389830505
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 1.639344262295082,
+            "failed_low": 0.0,
+            "failed_high": 6.722689075630252,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.36065573770492
+          },
+          {
+            "count": 189,
+            "failed_pct": 10.582010582010582,
+            "failed_low": 3.0854787714543814,
+            "failed_high": 19.608077680833098,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 89.41798941798942
+          },
+          {
+            "count": 453,
+            "failed_pct": 3.752759381898455,
+            "failed_low": 0.4503748715158112,
+            "failed_high": 9.559410680734212,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 3.1645569620253164,
+            "failed_low": 0.0,
+            "failed_high": 10.989876265466819,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.83544303797468
+          },
+          {
+            "count": 194,
+            "failed_pct": 67.52577319587628,
+            "failed_low": 55.60747663551402,
+            "failed_high": 78.26086956521739,
+            "unsupported_of_accepted_pct": 14.285714285714286,
+            "supportable_pct": 27.835051546391753
+          },
+          {
+            "count": 101,
+            "failed_pct": 97.02970297029702,
+            "failed_low": 88.09394409937889,
+            "failed_high": 100.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 2.9702970297029703
+          }
+        ]
+      }
+    },
+    "rootsift-nn_ratio-r2048-k8192": {
+      "method": "RootSIFT, nearest neighbour",
+      "pairs": 1217,
+      "accepted_pct": 79.12900575184881,
+      "failed_pct": 20.870994248151188,
+      "failed_low": 17.42471674744837,
+      "failed_high": 24.591757440879896,
+      "supportable_pct": 78.9646672144618,
+      "precision": 0.9979231568016614,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 54.86958183260273,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 0.7966666666666666
+      },
+      "half_angle_unconstrained_fit_deg": 54.76423856819832,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 18.57273559011894,
+            "failed_low": 15.243845770242089,
+            "failed_high": 21.938119509702013,
+            "unsupported_of_accepted_pct": 0.2247191011235955,
+            "supportable_pct": 81.24428179322965
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 43.220338983050844,
+            "failed_low": 25.43481548699335,
+            "failed_high": 60.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 56.779661016949156
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 1.639344262295082,
+            "failed_low": 0.0,
+            "failed_high": 6.61764705882353,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.36065573770492
+          },
+          {
+            "count": 189,
+            "failed_pct": 10.052910052910052,
+            "failed_low": 2.840909090909091,
+            "failed_high": 18.617697439596107,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 89.94708994708994
+          },
+          {
+            "count": 453,
+            "failed_pct": 3.752759381898455,
+            "failed_low": 0.4716703662597114,
+            "failed_high": 9.153492759445909,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 3.1645569620253164,
+            "failed_low": 0.0,
+            "failed_high": 11.215829439252339,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.83544303797468
+          },
+          {
+            "count": 194,
+            "failed_pct": 58.24742268041237,
+            "failed_low": 45.672554347826086,
+            "failed_high": 69.69733391608392,
+            "unsupported_of_accepted_pct": 2.4691358024691357,
+            "supportable_pct": 40.72164948453608
+          },
+          {
+            "count": 101,
+            "failed_pct": 97.02970297029702,
+            "failed_low": 87.35595809690092,
+            "failed_high": 100.0,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 2.9702970297029703
+          }
+        ]
+      }
+    },
+    "doghardnet-lightglue-r2048-k8192": {
+      "method": "DoG + HardNet",
+      "pairs": 1217,
+      "accepted_pct": 86.27773212818406,
+      "failed_pct": 13.72226787181594,
+      "failed_low": 9.455945845741692,
+      "failed_high": 18.26724645316365,
+      "supportable_pct": 80.03286770747741,
+      "precision": 0.9276190476190476,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 57.50585731955569,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 0.8366666666666667
+      },
+      "half_angle_unconstrained_fit_deg": 54.43149376463992,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 10.887465690759377,
+            "failed_low": 7.274282772051577,
+            "failed_high": 14.857831586034434,
+            "unsupported_of_accepted_pct": 7.700205338809035,
+            "supportable_pct": 82.25068618481244
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 40.67796610169491,
+            "failed_low": 22.805023923444974,
+            "failed_high": 58.267977264431345,
+            "unsupported_of_accepted_pct": 1.4285714285714286,
+            "supportable_pct": 58.47457627118644
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 0.819672131147541,
+            "failed_low": 0.0,
+            "failed_high": 4.761904761904762,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 99.18032786885246
+          },
+          {
+            "count": 189,
+            "failed_pct": 8.994708994708995,
+            "failed_low": 2.325245328673209,
+            "failed_high": 17.412127651278855,
+            "unsupported_of_accepted_pct": 0.5813953488372093,
+            "supportable_pct": 90.47619047619048
+          },
+          {
+            "count": 453,
+            "failed_pct": 3.752759381898455,
+            "failed_low": 0.47732696897374705,
+            "failed_high": 9.05177603853101,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 3.1645569620253164,
+            "failed_low": 0.0,
+            "failed_high": 11.039060632618915,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.83544303797468
+          },
+          {
+            "count": 194,
+            "failed_pct": 38.144329896907216,
+            "failed_low": 25.668330888268425,
+            "failed_high": 51.53069049705772,
+            "unsupported_of_accepted_pct": 26.666666666666668,
+            "supportable_pct": 45.36082474226804
+          },
+          {
+            "count": 101,
+            "failed_pct": 52.475247524752476,
+            "failed_low": 32.77196333078686,
+            "failed_high": 72.07259585166562,
+            "unsupported_of_accepted_pct": 89.58333333333333,
+            "supportable_pct": 4.9504950495049505
+          }
+        ]
+      }
+    },
+    "superpoint-lightglue-r2048-k8192": {
+      "method": "SuperPoint",
+      "pairs": 1217,
+      "accepted_pct": 83.40180772391126,
+      "failed_pct": 16.598192276088742,
+      "failed_low": 11.982981602832838,
+      "failed_high": 21.21212121212121,
+      "supportable_pct": 78.38948233360723,
+      "precision": 0.9399014778325123,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 53.71680476963226,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 0.745
+      },
+      "half_angle_unconstrained_fit_deg": 51.387480935678056,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 13.723696248856358,
+            "failed_low": 9.864944303256301,
+            "failed_high": 17.891101078133868,
+            "unsupported_of_accepted_pct": 6.468716861081655,
+            "supportable_pct": 80.69533394327539
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 44.067796610169495,
+            "failed_low": 26.48957927541878,
+            "failed_high": 61.11225895316805,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 55.932203389830505
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 1.639344262295082,
+            "failed_low": 0.0,
+            "failed_high": 6.870229007633588,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.36065573770492
+          },
+          {
+            "count": 189,
+            "failed_pct": 10.582010582010582,
+            "failed_low": 2.807257195628752,
+            "failed_high": 19.730941704035875,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 89.41798941798942
+          },
+          {
+            "count": 453,
+            "failed_pct": 3.752759381898455,
+            "failed_low": 0.43668122270742354,
+            "failed_high": 9.280905323397795,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 3.1645569620253164,
+            "failed_low": 0.0,
+            "failed_high": 10.84430988201511,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.83544303797468
+          },
+          {
+            "count": 194,
+            "failed_pct": 47.422680412371136,
+            "failed_low": 33.15782437376865,
+            "failed_high": 61.92673582151793,
+            "unsupported_of_accepted_pct": 31.372549019607842,
+            "supportable_pct": 36.08247422680412
+          },
+          {
+            "count": 101,
+            "failed_pct": 65.34653465346534,
+            "failed_low": 46.53200141442716,
+            "failed_high": 82.56980454726765,
+            "unsupported_of_accepted_pct": 82.85714285714286,
+            "supportable_pct": 5.9405940594059405
+          }
+        ]
+      }
+    },
+    "aliked-lightglue-r2048-k8192": {
+      "method": "ALIKED",
+      "pairs": 1217,
+      "accepted_pct": 81.42974527526705,
+      "failed_pct": 18.570254724732948,
+      "failed_low": 14.402127659574468,
+      "failed_high": 22.715669768464803,
+      "supportable_pct": 78.30731306491371,
+      "precision": 0.9616548940464178,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 53.658907045841346,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 0.7416666666666667
+      },
+      "half_angle_unconstrained_fit_deg": 52.13043421066866,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 15.919487648673377,
+            "failed_low": 12.387512394495634,
+            "failed_high": 19.633661148059055,
+            "unsupported_of_accepted_pct": 4.134929270946682,
+            "supportable_pct": 80.60384263494969
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 44.067796610169495,
+            "failed_low": 26.7964650648992,
+            "failed_high": 60.87026198439243,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 55.932203389830505
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 1.639344262295082,
+            "failed_low": 0.0,
+            "failed_high": 6.716574689577325,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.36065573770492
+          },
+          {
+            "count": 189,
+            "failed_pct": 10.582010582010582,
+            "failed_low": 2.9069767441860463,
+            "failed_high": 19.397074824238366,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 89.41798941798942
+          },
+          {
+            "count": 453,
+            "failed_pct": 3.752759381898455,
+            "failed_low": 0.44742729306487694,
+            "failed_high": 9.297640784162983,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 3.1645569620253164,
+            "failed_low": 0.0,
+            "failed_high": 10.910336239103366,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.83544303797468
+          },
+          {
+            "count": 194,
+            "failed_pct": 49.48453608247423,
+            "failed_low": 36.29987588489473,
+            "failed_high": 62.5,
+            "unsupported_of_accepted_pct": 26.53061224489796,
+            "supportable_pct": 37.11340206185567
+          },
+          {
+            "count": 101,
+            "failed_pct": 85.14851485148515,
+            "failed_low": 69.41070482246953,
+            "failed_high": 96.19077757685352,
+            "unsupported_of_accepted_pct": 80.0,
+            "supportable_pct": 2.9702970297029703
+          }
+        ]
+      }
+    },
+    "disk-lightglue-r2048-k8192": {
+      "method": "DISK",
+      "pairs": 1217,
+      "accepted_pct": 78.55382087099426,
+      "failed_pct": 21.44617912900575,
+      "failed_low": 17.80816137795503,
+      "failed_high": 25.45774535187042,
+      "supportable_pct": 77.89646672144617,
+      "precision": 0.9916317991631799,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 55.655285164571474,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 0.77
+      },
+      "half_angle_unconstrained_fit_deg": 55.21774315543608,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 19.213174748398902,
+            "failed_low": 15.820661092443542,
+            "failed_high": 22.675055989921816,
+            "unsupported_of_accepted_pct": 0.9060022650056625,
+            "supportable_pct": 80.05489478499543
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 43.220338983050844,
+            "failed_low": 25.832661290322584,
+            "failed_high": 60.71669884169884,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 56.779661016949156
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 1.639344262295082,
+            "failed_low": 0.0,
+            "failed_high": 6.570550665521687,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 98.36065573770492
+          },
+          {
+            "count": 189,
+            "failed_pct": 10.052910052910052,
+            "failed_low": 2.6134525975338594,
+            "failed_high": 18.95175622993426,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 89.94708994708994
+          },
+          {
+            "count": 453,
+            "failed_pct": 3.752759381898455,
+            "failed_low": 0.42462845010615713,
+            "failed_high": 9.090909090909092,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 3.7974683544303796,
+            "failed_low": 0.0,
+            "failed_high": 11.679654106661408,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 96.20253164556962
+          },
+          {
+            "count": 194,
+            "failed_pct": 64.94845360824742,
+            "failed_low": 52.88352272727273,
+            "failed_high": 75.77138882448412,
+            "unsupported_of_accepted_pct": 7.352941176470588,
+            "supportable_pct": 32.47422680412371
+          },
+          {
+            "count": 101,
+            "failed_pct": 90.0990099009901,
+            "failed_low": 75.96153846153845,
+            "failed_high": 99.06563689858082,
+            "unsupported_of_accepted_pct": 30.0,
+            "supportable_pct": 6.9306930693069315
+          }
+        ]
+      }
+    },
+    "loftr-dense-r1024-kall": {
+      "method": "LoFTR",
+      "pairs": 1217,
+      "accepted_pct": 89.07148726376334,
+      "failed_pct": 10.928512736236652,
+      "failed_low": 7.267599339400924,
+      "failed_high": 14.730686494575384,
+      "supportable_pct": 76.91043549712407,
+      "precision": 0.8634686346863468,
+      "recall": 1.0,
+      "half_angle_accepted_deg": null,
+      "half_angle_supported_deg": 54.70181545948775,
+      "half_angle_reached": false,
+      "half_angle_ceiling_deg": 45.02401403416014,
+      "half_angle_interval": {
+        "reached": false,
+        "ceiling_deg": 45.02401403416014,
+        "unreached_share": 1.0
+      },
+      "half_angle_unconstrained_fit_deg": 152.46946466561522,
+      "classes": {
+        "convergence": [
+          {
+            "count": 1093,
+            "failed_pct": 10.247026532479415,
+            "failed_low": 6.604677026661456,
+            "failed_high": 14.285714285714285,
+            "unsupported_of_accepted_pct": 11.926605504587156,
+            "supportable_pct": 79.04849039341264
+          },
+          {
+            "count": 6,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 39.03430336530645,
+            "unsupported_of_accepted_pct": 0.0,
+            "supportable_pct": 100.0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 0
+          },
+          {
+            "count": 118,
+            "failed_pct": 17.796610169491526,
+            "failed_low": 6.1946902654867255,
+            "failed_high": 33.0436624907885,
+            "unsupported_of_accepted_pct": 31.95876288659794,
+            "supportable_pct": 55.932203389830505
+          },
+          {
+            "count": 0
+          }
+        ],
+        "baseline": [
+          {
+            "count": 122,
+            "failed_pct": 0.819672131147541,
+            "failed_low": 0.0,
+            "failed_high": 4.761904761904762,
+            "unsupported_of_accepted_pct": 0.8264462809917356,
+            "supportable_pct": 98.36065573770492
+          },
+          {
+            "count": 189,
+            "failed_pct": 4.761904761904762,
+            "failed_low": 0.5180679450884035,
+            "failed_high": 10.98281776027441,
+            "unsupported_of_accepted_pct": 6.111111111111111,
+            "supportable_pct": 89.41798941798942
+          },
+          {
+            "count": 453,
+            "failed_pct": 1.5452538631346577,
+            "failed_low": 0.0,
+            "failed_high": 4.10982414344378,
+            "unsupported_of_accepted_pct": 2.242152466367713,
+            "supportable_pct": 96.24724061810154
+          },
+          {
+            "count": 158,
+            "failed_pct": 0.0,
+            "failed_low": 0.0,
+            "failed_high": 2.3736789552253557,
+            "unsupported_of_accepted_pct": 3.1645569620253164,
+            "supportable_pct": 96.83544303797468
+          },
+          {
+            "count": 194,
+            "failed_pct": 36.597938144329895,
+            "failed_low": 22.344089920232054,
+            "failed_high": 51.42857142857142,
+            "unsupported_of_accepted_pct": 58.53658536585366,
+            "supportable_pct": 26.288659793814436
+          },
+          {
+            "count": 101,
+            "failed_pct": 44.554455445544555,
+            "failed_low": 26.80233745023987,
+            "failed_high": 63.27021193092624,
+            "unsupported_of_accepted_pct": 87.5,
+            "supportable_pct": 6.9306930693069315
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "config": "aliked-lightglue-r3200-k8192",
+  "dataset": "D2_111_nadir",
+  "front_end": "aliked",
+  "matcher": "lightglue",
+  "working_resolution": 3200,
+  "keypoint_budget": 8192,
+  "ratio_threshold": null,
+  "verifier": {
+    "method": "USAC_MAGSAC fundamental matrix",
+    "threshold_px": 2.0,
+    "confidence": 0.9999,
+    "max_iters": 10000,
+    "min_matches": 8
+  },
+  "failed_pair_inlier_threshold": 15,
+  "keypoint_storage_dtype": "float32",
+  "descriptor_storage_dtype": "float16",
+  "pairs": 1217,
+  "extraction": {
+    "images": 111,
+    "seconds_total": 199.3634766000614,
+    "seconds_per_image_median": 1.7710822000080952,
+    "keypoints_median": 8192.0,
+    "keypoints_mean": 8192.0,
+    "keypoints_min": 8192,
+    "keypoints_max": 8192,
+    "peak_gpu_mb": 10723.4267578125,
+    "reused": false
+  },
+  "matching_seconds_total": 196.64387030000216,
+  "matching_seconds_per_pair_median": 0.13108990000910126,
+  "matching_peak_gpu_mb": 1894.92333984375,
+  "median_verified_inliers": 2028.0,
+  "mean_verified_inliers": 1979.6803615447823,
+  "failed_pair_fraction": 0.2029580936729663,
+  "verification_status_counts": {
+    "ok": 1215,
+    "too_few_matches": 2
+  },
+  "features_path": "workspace/features/D2_111_nadir/aliked-r3200-k8192.h5",
+  "matches_path": "workspace/matches/D2_111_nadir/aliked-lightglue-r3200-k8192.h5",
+  "metrics_path": "results/pairwise/D2_111_nadir/aliked-lightglue-r3200-k8192.csv",
+  "torch": "2.12.0+cu126",
+  "opencv": "5.0.0",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

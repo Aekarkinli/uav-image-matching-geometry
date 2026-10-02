@@ -1,0 +1,197 @@
+{
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "total_memory_gib": 7.99560546875,
+  "image": "107_0005_0001.JPG",
+  "keypoint_budget": 8192,
+  "repeats": 2,
+  "detectors": [
+    {
+      "front_end": "rootsift",
+      "resolution": 2048,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 0.3006725311279297,
+      "seconds": 0.20794870000099763,
+      "keypoints": 6404
+    },
+    {
+      "front_end": "rootsift",
+      "resolution": "native",
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 0.08640623092651367,
+      "seconds": 1.0767458000045735,
+      "keypoints": 6179
+    },
+    {
+      "front_end": "doghardnet",
+      "resolution": 2048,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 1.7133550643920898,
+      "seconds": 0.361537299992051,
+      "keypoints": 6404
+    },
+    {
+      "front_end": "doghardnet",
+      "resolution": "native",
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 1.6461753845214844,
+      "seconds": 1.2770207999856211,
+      "keypoints": 6179
+    },
+    {
+      "front_end": "superpoint",
+      "resolution": 2048,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 1.4396710395812988,
+      "seconds": 0.10375079998630099,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "superpoint",
+      "resolution": "native",
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 9.614964008331299,
+      "seconds": 1.8856776999891736,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "aliked",
+      "resolution": 2048,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 4.442112445831299,
+      "seconds": 0.14725589999579825,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "aliked",
+      "resolution": "native",
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 29.801419734954834,
+      "seconds": 20.94318820000626,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "disk",
+      "resolution": 1024,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 1.8581323623657227,
+      "seconds": 0.09691640001256019,
+      "keypoints": 7754
+    },
+    {
+      "front_end": "disk",
+      "resolution": 1024,
+      "precision": "fp16",
+      "status": "ok",
+      "peak_gib": 0.9298906326293945,
+      "seconds": 0.046764600003371015,
+      "keypoints": 7751
+    },
+    {
+      "front_end": "disk",
+      "resolution": 1600,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 4.178675651550293,
+      "seconds": 0.16790329999639653,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "disk",
+      "resolution": 1600,
+      "precision": "fp16",
+      "status": "ok",
+      "peak_gib": 2.0843238830566406,
+      "seconds": 0.08332609999342822,
+      "keypoints": 8189
+    },
+    {
+      "front_end": "disk",
+      "resolution": 2048,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 6.709251880645752,
+      "seconds": 3.218553000013344,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "disk",
+      "resolution": 2048,
+      "precision": "fp16",
+      "status": "ok",
+      "peak_gib": 3.343578338623047,
+      "seconds": 0.13464100001147017,
+      "keypoints": 8188
+    },
+    {
+      "front_end": "disk",
+      "resolution": 3200,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 15.992104053497314,
+      "seconds": 38.20250990000204,
+      "keypoints": 8192
+    },
+    {
+      "front_end": "disk",
+      "resolution": 3200,
+      "precision": "fp16",
+      "status": "ok",
+      "peak_gib": 7.962298393249512,
+      "seconds": 14.389512299996568,
+      "keypoints": 8168
+    },
+    {
+      "front_end": "disk",
+      "resolution": "native",
+      "precision": "fp32",
+      "status": "out of memory"
+    },
+    {
+      "front_end": "disk",
+      "resolution": "native",
+      "precision": "fp16",
+      "status": "ok",
+      "peak_gib": 15.043522357940674,
+      "seconds": 596.8724754999857,
+      "keypoints": 8145
+    }
+  ],
+  "detector_free": [
+    {
+      "front_end": "loftr",
+      "resolution": 1024,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 2.1621766090393066,
+      "seconds": 0.4403963999939151,
+      "matches": 7846
+    },
+    {
+      "front_end": "loftr",
+      "resolution": 1600,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 11.39154863357544,
+      "seconds": 7.214964299986605,
+      "matches": 18030
+    },
+    {
+      "front_end": "loftr",
+      "resolution": 2048,
+      "precision": "fp32",
+      "status": "ok",
+      "peak_gib": 29.60944175720215,
+      "seconds": 40.93568639998557,
+      "matches": 28241
+    }
+  ]
+}
